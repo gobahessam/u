@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Cairo', sans-serif;
     color: var(--text-dark);
     background-color: var(--light-color);
     padding-top: 76px;
@@ -178,6 +178,28 @@ body {
     object-fit: cover;
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* تأثيرات حركية على علامة البرجر */
+.navbar-toggler {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    transform: scale(1.1);
 }
 
 /* تنسيقات اتجاه النص */

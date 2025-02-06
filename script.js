@@ -143,11 +143,23 @@ document.addEventListener('DOMContentLoaded', function() {
             tours: "رحلة منظمة",
             explore_now: "استكشف الآن",
             book_trip: "احجز رحلتك",
+            study_page_title: 'صفحة الدراسة',
+            study_page_description: 'استكشف المعلومات والدروس المتاحة للدراسة في روسيا',
+            study_hero_title: 'مرحباً بكم في صفحة الدراسة',
+            study_hero_subtitle: 'استكشف المعلومات والدروس المتاحة للدراسة في روسيا',
+            hero_description: 'احصل على معلومات شاملة حول البرامج الدراسية في روسيا.',
+            new_translation_key: 'نص جديد',
+            top_universities: 'أفضل الجامعات',
+            universities: 'الجامعات',
+            students: 'الطلاب',
+            programs: 'البرامج',
+            learn_more: 'تعلم المزيد',
+            contact_us: 'اتصل بنا',
         },
         en: {
-            site_title: 'Otchoba Study in Russia',
-            tourism_site_title: 'Otchoba Tourism in Russia',
-            brand_name: 'Otchoba',
+            site_title: 'Uchoba Study in Russia',
+            tourism_site_title: 'Uchoba Tourism in Russia',
+            brand_name: 'Uchoba',
             study_subtitle: 'Study in Russia',
             tourism_subtitle: 'Tourism in Russia',
             study: 'Study',
@@ -211,11 +223,23 @@ document.addEventListener('DOMContentLoaded', function() {
             tours: "Organized Tours",
             explore_now: "Explore Now",
             book_trip: "Book Your Trip",
+            study_page_title: 'Study Page',
+            study_page_description: 'Explore the available information and lessons for studying in Russia',
+            study_hero_title: 'Welcome to the Study Page',
+            study_hero_subtitle: 'Explore the available information and lessons for studying in Russia',
+            hero_description: 'Get comprehensive information about study programs in Russia.',
+            new_translation_key: 'New Text',
+            top_universities: 'Top Universities',
+            universities: 'Universities',
+            students: 'Students',
+            programs: 'Programs',
+            learn_more: 'Learn More',
+            contact_us: 'Contact Us',
         },
         ru: {
             site_title: 'Учеба в России Отчоба',
             tourism_site_title: 'Туризм в России Отчоба',
-            brand_name: 'Отчоба',
+            brand_name: 'Учеба',
             study_subtitle: 'Учеба в России',
             tourism_subtitle: 'Туризм в России',
             study: 'Учеба',
@@ -279,6 +303,18 @@ document.addEventListener('DOMContentLoaded', function() {
             tours: "Организованных туров",
             explore_now: "Исследовать",
             book_trip: "Забронировать",
+            study_page_title: 'Страница учебы',
+            study_page_description: 'Изучите доступную информацию и уроки для учебы в России',
+            study_hero_title: 'Добро пожаловать на страницу учебы',
+            study_hero_subtitle: 'Изучите доступную информацию и уроки для учебы в России',
+            hero_description: 'Получите полную информацию о учебных программах в России.',
+            new_translation_key: 'Новый текст',
+            top_universities: 'Топ университеты',
+            universities: 'Университеты',
+            students: 'Студенты',
+            programs: 'Программы',
+            learn_more: 'Узнать больше',
+            contact_us: 'Связаться с нами',
         }
     };
 
@@ -346,6 +382,26 @@ document.addEventListener('DOMContentLoaded', function() {
     // تحميل اللغة المحفوظة
     const savedLanguage = localStorage.getItem('selectedLanguage') || 'ar';
     updateLanguage(savedLanguage);
+
+    // إغلاق قائمة الهيدر البرجر عند النقر على رابط
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarNav = document.querySelector('#navbarNav');
+
+    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            if (navbarNav.classList.contains('show')) {
+                navbarToggler.click(); // إغلاق القائمة
+            }
+        });
+    });
+
+    // إغلاق قائمة الهيدر البرجر عند النقر في أي مكان خارجها
+    document.addEventListener('click', (event) => {
+        const isClickInside = navbarNav.contains(event.target) || navbarToggler.contains(event.target);
+        if (!isClickInside && navbarNav.classList.contains('show')) {
+            navbarToggler.click(); // إغلاق القائمة
+        }
+    });
 });
 
 // تأثيرات التمرير والهيدر

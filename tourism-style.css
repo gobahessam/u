@@ -511,6 +511,11 @@
     }
 }
 
+/* تغيير الخط العربي إلى Cairo */
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
 /* قسم الوجهات السياحية */
 .destinations-section {
     background: var(--bg-light);
