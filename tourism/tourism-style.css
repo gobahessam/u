@@ -1,0 +1,720 @@
+/* ألوان مختلفة لصفحة السياحة */
+.tourism-theme {
+    --tourism-primary: #FF6B6B;       /* أحمر وردي - يرمز للحيوية */
+    --tourism-secondary: #4ECDC4;     /* تركواز - يرمز للبحر */
+    --tourism-accent: #FFE66D;        /* أصفر - يرمز للشمس */
+    --tourism-dark: #2C3E50;          /* كحلي داكن */
+    --tourism-light: #F7F9FC;         /* أبيض مائل للأزرق */
+    --text-light: #ffffff;
+    --text-dark: #2B2D42;
+    --success-color: #2ECC71;
+    --gradient-primary: linear-gradient(135deg, var(--tourism-primary), #FF8787);
+    --gradient-secondary: linear-gradient(135deg, var(--tourism-secondary), #45B7AF);
+    --box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* تخصيص الهيدر */
+.tourism-theme .navbar {
+    background: var(--gradient-primary);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--box-shadow);
+}
+
+.tourism-theme .navbar.scrolled {
+    background: rgba(247, 183, 49, 0.85);
+    backdrop-filter: blur(10px);
+}
+
+.tourism-theme .nav-link:hover span::after {
+    background-color: #fff;
+}
+
+.tourism-theme .nav-link.active {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.tourism-theme .nav-contact-item {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(5px);
+}
+
+.tourism-theme .nav-contact-item:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+@media (max-width: 991px) {
+    .tourism-theme .navbar-collapse {
+        background: var(--tourism-primary);
+    }
+}
+
+/* قسم الهيرو */
+.hero-section.tourism-theme {
+    background: linear-gradient(135deg, var(--tourism-primary), var(--tourism-secondary));
+    padding: 120px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* خلفية متحركة */
+.hero-bg-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    animation: floatAnimation 8s infinite ease-in-out;
+}
+
+.shape-1 {
+    width: 300px;
+    height: 300px;
+    top: -150px;
+    right: -150px;
+    animation-delay: 0s;
+}
+
+.shape-2 {
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
+    left: -100px;
+    animation-delay: 2s;
+}
+
+.shape-3 {
+    width: 150px;
+    height: 150px;
+    bottom: 50%;
+    right: 10%;
+    animation-delay: 4s;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
+}
+
+/* محتوى الهيرو */
+.tourism-theme .hero-content {
+    color: var(--text-light);
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.tourism-theme .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tourism-theme .hero-badge i {
+    color: var(--tourism-accent);
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+.tourism-theme .hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    line-height: 1.2;
+}
+
+.tourism-theme .hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    line-height: 1.8;
+}
+
+/* إحصائيات */
+.tourism-theme .hero-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tourism-theme .stat-item {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.tourism-theme .stat-item:hover {
+    transform: translateY(-5px);
+}
+
+.tourism-theme .stat-item h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--tourism-accent);
+    margin-bottom: 0.5rem;
+}
+
+.tourism-theme .stat-item p {
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* أزرار */
+.tourism-theme .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tourism-theme .btn-glow {
+    position: relative;
+    overflow: hidden;
+    background: var(--tourism-accent);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tourism-theme .btn-glow:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px var(--tourism-accent);
+}
+
+.tourism-theme .btn-glow i {
+    transition: transform 0.3s ease;
+}
+
+.tourism-theme .btn-glow:hover i {
+    transform: translateX(5px);
+}
+
+.tourism-theme .btn-hover-fill {
+    position: relative;
+    border: 2px solid var(--text-light);
+    color: var(--text-light);
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.tourism-theme .btn-hover-fill::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--text-light);
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.tourism-theme .btn-hover-fill:hover {
+    color: var(--tourism-primary);
+}
+
+.tourism-theme .btn-hover-fill:hover::before {
+    width: 100%;
+}
+
+/* صورة الهيرو */
+.tourism-theme .image-container {
+    padding: 2rem;
+    position: relative;
+}
+
+.tourism-theme .image-wrapper {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.tourism-theme .image-wrapper:hover {
+    transform: translateY(-10px);
+}
+
+.tourism-theme .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0,0,0,0.2), transparent);
+    z-index: 1;
+}
+
+.tourism-theme .hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.tourism-theme .image-wrapper:hover .hero-image {
+    transform: scale(1.05);
+}
+
+.tourism-theme .image-decoration {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.tourism-theme .deco-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px dashed rgba(255,255,255,0.2);
+    border-radius: 50%;
+    top: -30px;
+    right: -30px;
+    animation: spin 20s linear infinite;
+}
+
+.tourism-theme .deco-line {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-left: 2px solid rgba(255,255,255,0.2);
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    bottom: -30px;
+    left: -30px;
+    border-radius: 0 0 0 20px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* بطاقات الوجهات */
+.destination-card {
+    border: none;
+    background: white;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.destination-image {
+    height: 250px;
+    position: relative;
+}
+
+.destination-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+}
+
+.destination-content {
+    padding: 1.5rem;
+    background: white;
+}
+
+.destination-content h3 {
+    color: var(--tourism-dark);
+    margin-bottom: 0.5rem;
+}
+
+.destination-content .btn-outline-primary {
+    color: var(--tourism-primary);
+    border-color: var(--tourism-primary);
+}
+
+.destination-content .btn-outline-primary:hover {
+    background: var(--tourism-primary);
+    color: white;
+}
+
+/* الخدمات السياحية */
+.tourism-services {
+    background-color: var(--tourism-light);
+}
+
+.service-box {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.service-box:hover {
+    border-color: var(--tourism-primary);
+    transform: translateY(-5px);
+}
+
+.service-box i {
+    color: var(--tourism-primary);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* العروض الخاصة */
+.offer-card {
+    background: linear-gradient(135deg, white, var(--tourism-light));
+    border-radius: 15px;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 168, 1, 0.2);
+}
+
+.offer-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background: var(--tourism-secondary);
+    opacity: 0.1;
+    border-radius: 0 0 0 100%;
+}
+
+.offer-card h3 {
+    color: var(--tourism-dark);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.offer-card .price {
+    color: var(--tourism-primary);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.offer-card .btn {
+    background: var(--tourism-primary);
+    border: none;
+    padding: 0.8rem 2rem;
+}
+
+.offer-card .btn:hover {
+    background: var(--tourism-dark);
+}
+
+@media (max-width: 991px) {
+    .tourism-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .destination-card {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tourism-hero {
+        padding: 50px 0;
+    }
+    
+    .tourism-image {
+        height: 300px;
+        margin-top: 2rem;
+    }
+    
+    .destination-card {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .tourism-theme .hero-section {
+        padding: 80px 0;
+    }
+
+    .tourism-theme .hero-content {
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .tourism-theme .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .tourism-theme .hero-stats {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tourism-theme .hero-buttons {
+        justify-content: center;
+    }
+
+    .tourism-theme .image-container {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+/* تغيير الخط العربي إلى Cairo */
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* قسم الوجهات السياحية */
+.destinations-section {
+    background: var(--bg-light);
+    position: relative;
+}
+
+.section-header {
+    margin-bottom: 3rem;
+}
+
+.section-badge {
+    display: inline-block;
+    background: rgba(var(--tourism-primary-rgb), 0.1);
+    color: var(--tourism-primary);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.destination-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.destination-image {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.destination-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.destination-card:hover .destination-image img {
+    transform: scale(1.1);
+}
+
+.destination-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.destination-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.meta-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,255,255,0.2);
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.meta-rating i {
+    color: #ffd700;
+}
+
+.destination-content {
+    padding: 1.5rem;
+}
+
+.destination-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+}
+
+.destination-content p {
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.destination-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.destination-features span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.destination-features i {
+    color: var(--tourism-primary);
+}
+
+.btn-explore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1.5rem;
+    background: rgba(var(--tourism-primary-rgb), 0.1);
+    color: var(--tourism-primary);
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-explore:hover {
+    background: var(--tourism-primary);
+    color: #fff;
+}
+
+.btn-explore i {
+    transition: transform 0.3s ease;
+}
+
+.btn-explore:hover i {
+    transform: translateX(5px);
+}
+
+.btn-view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 2rem;
+    border: 2px solid var(--tourism-primary);
+    color: var(--tourism-primary);
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn-view-all:hover {
+    background: var(--tourism-primary);
+    color: #fff;
+}
+
+.btn-view-all i {
+    transition: transform 0.3s ease;
+}
+
+.btn-view-all:hover i {
+    transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .destination-card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .destination-features {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
