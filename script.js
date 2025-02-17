@@ -86,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
             hero_badge: 'شريك موثوق في التعليم العالي',
             hero_title: 'ابدأ رحلتك الدراسية في روسيا',
             hero_description: 'نفتح لك أبواب المستقبل مع أفضل الجامعات الروسية. خدمات شاملة ودعم متكامل لتحقيق حلمك في التعليم العالي.',
+            free_consultation: 'احصل على استشارة مجانية',
             
             // الميزات
             feature_programs: 'برامج معتمدة',
@@ -97,24 +98,32 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // الخدمات
             services_title: 'خدماتنا',
-            services_subtitle: 'حلول متكاملة للدراسة في روسيا',
-            service_registration: 'التسجيل في الجامعات',
-            service_visa: 'تأشيرة الدراسة',
-            service_housing: 'السكن الطلابي',
-            service_translation: 'خدمات الترجمة',
+            services_subtitle: 'خدماتنا المتميزة',
+            most_requested: "الخدمة الأكثر طلباً",
+            certified_translation: "ترجمة معتمدة رسمياً",
+            guaranteed_housing: "سكن طلابي مضمون",
             
-            // الأسئلة الشائعة
-            faq_title: 'الأسئلة الشائعة',
-            faq_subtitle: 'كل ما تريد معرفته عن الدراسة في روسيا',
+            registration_title: "التسجيل الجامعي",
+            registration_description: "نقدم خدمة شاملة للتسجيل في أفضل الجامعات الروسية، من اختيار التخصص المناسب حتى إتمام القبول",
+            registration_feature1: "اختيار الجامعة والتخصص المناسب",
+            registration_feature2: "تجهيز وتصديق جميع المستندات",
+            registration_feature3: "متابعة كاملة لإجراءات القبول",
             
-            // نموذج التواصل
-            contact_us: 'تواصل معنا',
-            free_consultation: 'احصل على استشارة مجانية',
-            name: 'الاسم',
-            email: 'البريد الإلكتروني',
-            phone: 'رقم الهاتف',
-            message: 'الرسالة',
-            send: 'إرسال'
+            translation_title: "خدمات الترجمة المعتمدة",
+            translation_description: "نوفر خدمات ترجمة معتمدة ودقيقة لكافة المستندات الدراسية والرسمية مع التصديق",
+            translation_feature1: "ترجمة معتمدة للشهادات والوثائق",
+            translation_feature2: "تصديق رسمي للترجمات",
+            translation_feature3: "خدمة سريعة وجودة عالية",
+            
+            housing_title: "خدمات السكن الطلابي",
+            housing_description: "نضمن لك سكناً مريحاً وآمناً سواء في السكن الجامعي أو الشقق الخاصة بأسعار تنافسية",
+            housing_feature1: "سكن جامعي آمن ومجهز",
+            housing_feature2: "شقق مفروشة حديثة",
+            housing_feature3: "مواقع قريبة من الجامعات",
+            
+            request_service: "احجز الخدمة الآن",
+            
+            close: "إغلاق"
         },
         en: {
             // Main Menu
@@ -128,8 +137,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Hero Section
             hero_badge: 'Trusted Education Partner',
-            hero_title: 'Start Your Study Journey in Russia',
-            hero_description: 'We open doors to your future with the best Russian universities. Comprehensive services and support to achieve your educational dreams.',
+            hero_title: 'Start Your Academic Journey in Russia',
+            hero_description: 'We open doors to your future with the best Russian universities. Comprehensive services and complete support to achieve your higher education dream.',
+            free_consultation: 'Get Free Consultation',
             
             // Features
             feature_programs: 'Accredited Programs',
@@ -141,68 +151,85 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Services
             services_title: 'Our Services',
-            services_subtitle: 'Comprehensive Solutions for Studying in Russia',
-            service_registration: 'University Registration',
-            service_visa: 'Study Visa',
-            service_housing: 'Student Housing',
-            service_translation: 'Translation Services',
+            services_subtitle: 'Our Premium Services',
+            most_requested: "Most Popular Service",
+            certified_translation: "Officially Certified Translation",
+            guaranteed_housing: "Guaranteed Student Housing",
             
-            // FAQ
-            faq_title: 'FAQ',
-            faq_subtitle: 'Everything You Need to Know About Studying in Russia',
+            registration_title: "University Enrollment",
+            registration_description: "We provide comprehensive support for enrollment in top Russian universities, from choosing the right program to completing admission",
+            registration_feature1: "University and program selection",
+            registration_feature2: "Document preparation and certification",
+            registration_feature3: "Complete admission support",
             
-            // Contact Form
-            contact_us: 'Contact Us',
-            free_consultation: 'Get Free Consultation',
-            name: 'Name',
-            email: 'Email',
-            phone: 'Phone Number',
-            message: 'Message',
-            send: 'Send'
+            translation_title: "Certified Translation Services",
+            translation_description: "We offer certified and accurate translation for all academic and official documents with authentication",
+            translation_feature1: "Certified document translation",
+            translation_feature2: "Official translation authentication",
+            translation_feature3: "Fast service with high quality",
+            
+            housing_title: "Student Housing Services",
+            housing_description: "We guarantee comfortable and safe accommodation in either university dorms or private apartments at competitive prices",
+            housing_feature1: "Safe and equipped university housing",
+            housing_feature2: "Modern furnished apartments",
+            housing_feature3: "Locations near universities",
+            
+            request_service: "Book Service Now",
+            
+            close: "Close"
         },
         ru: {
             // Главное меню
             site_title: 'Учоба - Обучение в России',
             brand_name: 'Учоба',
             study_subtitle: 'Обучение в России',
-            study: 'Учеба',
+            study: 'Обучение',
             tourism: 'Туризм',
-            contact: 'Контакты',
+            contact: 'Связаться',
             language: 'Язык',
 
             // Герой секция
-            hero_badge: 'Надежный партнер в образовании',
-            hero_title: 'Начните учебу в России',
-            hero_description: 'Мы открываем двери в ваше будущее с лучшими российскими университетами. Комплексные услуги и поддержка для достижения ваших образовательных целей.',
+            hero_badge: 'Надежный Образовательный Партнер',
+            hero_title: 'Начните Свой Путь в Образовании в России',
+            hero_description: 'Мы открываем двери в ваше будущее с лучшими российскими университетами. Комплексные услуги и полная поддержка для достижения вашей мечты о высшем образовании.',
+            free_consultation: 'Получить Бесплатную Консультацию',
             
             // Преимущества
-            feature_programs: 'Аккредитованные программы',
+            feature_programs: 'Аккредитованные Программы',
             feature_programs_desc: 'Международно признанные сертификаты',
-            feature_support: 'Полная поддержка',
+            feature_support: 'Полная Поддержка',
             feature_support_desc: 'Сопровождение от начала до конца',
-            feature_experience: 'Международный опыт',
+            feature_experience: 'Международный Опыт',
             feature_experience_desc: 'Специализированная команда в международном образовании',
             
             // Услуги
-            services_title: 'Наши услуги',
-            services_subtitle: 'Комплексные решения для обучения в России',
-            service_registration: 'Регистрация в университетах',
-            service_visa: 'Учебная виза',
-            service_housing: 'Студенческое жилье',
-            service_translation: 'Услуги перевода',
+            services_title: 'Наши Услуги',
+            services_subtitle: 'Наши Премиум Услуги',
+            most_requested: "Самая Популярная Услуга",
+            certified_translation: "Официально Заверенный Перевод",
+            guaranteed_housing: "Гарантированное Студенческое Жилье",
             
-            // FAQ
-            faq_title: 'Частые вопросы',
-            faq_subtitle: 'Все, что нужно знать об обучении в России',
+            registration_title: "Поступление в Университет",
+            registration_description: "Мы предоставляем комплексную поддержку при поступлении в ведущие российские университеты, от выбора программы до завершения приема",
+            registration_feature1: "Подбор университета и программы",
+            registration_feature2: "Подготовка и заверение документов",
+            registration_feature3: "Полная поддержка поступления",
             
-            // Контактная форма
-            contact_us: 'Свяжитесь с нами',
-            free_consultation: 'Получить бесплатную консультацию',
-            name: 'Имя',
-            email: 'Эл. почта',
-            phone: 'Номер телефона',
-            message: 'Сообщение',
-            send: 'Отправить'
+            translation_title: "Услуги Заверенного Перевода",
+            translation_description: "Мы предлагаем сертифицированный и точный перевод всех академических и официальных документов с заверением",
+            translation_feature1: "Заверенный перевод документов",
+            translation_feature2: "Официальное заверение переводов",
+            translation_feature3: "Быстрый сервис высокого качества",
+            
+            housing_title: "Услуги Студенческого Жилья",
+            housing_description: "Мы гарантируем комфортное и безопасное проживание в общежитиях университета или частных квартирах по конкурентным ценам",
+            housing_feature1: "Безопасное университетское жилье",
+            housing_feature2: "Современные меблированные квартиры",
+            housing_feature3: "Расположение рядом с университетами",
+            
+            request_service: "Забронировать Сейчас",
+            
+            close: "Закрыть"
         }
     };
 
@@ -224,8 +251,46 @@ document.addEventListener('DOMContentLoaded', function() {
         document.title = translations[lang].site_title;
 
         // تحديث اتجاه الصفحة
-        document.dir = lang === 'ar' ? 'rtl' : 'ltr';
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+        document.documentElement.lang = lang;
         
+        // تحديث classes Bootstrap
+        const body = document.body;
+        if (lang === 'ar') {
+            body.classList.remove('ltr');
+            body.classList.add('rtl');
+            // تحديث classes Bootstrap
+            document.querySelectorAll('.ml-auto').forEach(el => {
+                el.classList.remove('ml-auto');
+                el.classList.add('mr-auto');
+            });
+            document.querySelectorAll('.mr-auto').forEach(el => {
+                el.classList.remove('mr-auto');
+                el.classList.add('ml-auto');
+            });
+            // تحديث classes الشبكة
+            document.querySelectorAll('[class*="offset-"]').forEach(el => {
+                const classes = el.className.split(' ');
+                classes.forEach(cls => {
+                    if (cls.startsWith('offset-')) {
+                        el.classList.remove(cls);
+                    }
+                });
+            });
+        } else {
+            body.classList.remove('rtl');
+            body.classList.add('ltr');
+            // تحديث classes Bootstrap
+            document.querySelectorAll('.mr-auto').forEach(el => {
+                el.classList.remove('mr-auto');
+                el.classList.add('ml-auto');
+            });
+            document.querySelectorAll('.ml-auto').forEach(el => {
+                el.classList.remove('ml-auto');
+                el.classList.add('mr-auto');
+            });
+        }
+
         // تحديث النص الحالي للغة
         const currentLangSpan = document.querySelector('.current-lang');
         if (currentLangSpan) {
@@ -244,8 +309,25 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
 
+        // تحديث اتجاه العناصر المخصصة
+        const serviceCards = document.querySelectorAll('.service-card');
+        serviceCards.forEach(card => {
+            card.style.direction = lang === 'ar' ? 'rtl' : 'ltr';
+        });
+
+        // تحديث اتجاه قوائم المميزات
+        const featureLists = document.querySelectorAll('.service-features');
+        featureLists.forEach(list => {
+            list.style.direction = lang === 'ar' ? 'rtl' : 'ltr';
+        });
+
         // حفظ اللغة المحددة
         localStorage.setItem('selectedLanguage', lang);
+
+        // إعادة تهيئة AOS للتأكد من عمل التأثيرات بشكل صحيح
+        if (typeof AOS !== 'undefined') {
+            AOS.refresh();
+        }
     }
 
     // وظيفة الحصول على اللغة الحالية
@@ -460,89 +542,89 @@ document.addEventListener('DOMContentLoaded', function() {
 // ترجمات قسم الخدمات
 const translations = {
     ar: {
-        services_subtitle: "خدماتنا",
-        services_title: "حلول متكاملة للدراسة في روسيا",
-        most_requested: "الأكثر طلباً",
-        certified_translation: "ترجمة معتمدة",
-        guaranteed_housing: "سكن مضمون",
+        services_subtitle: "خدماتنا المتميزة",
+        services_title: "خدمات شاملة للدراسة في روسيا",
+        most_requested: "الخدمة الأكثر طلباً",
+        certified_translation: "ترجمة معتمدة رسمياً",
+        guaranteed_housing: "سكن طلابي مضمون",
         
-        registration_title: "تسجيل جامعي",
-        registration_description: "نرافقك في رحلة القبول الجامعي خطوة بخطوة، من اختيار الجامعة حتى تأكيد القبول",
-        registration_feature1: "اختيار أفضل الجامعات",
-        registration_feature2: "تجهيز وتصديق الأوراق",
-        registration_feature3: "متابعة إجراءات القبول",
+        registration_title: "التسجيل الجامعي",
+        registration_description: "نقدم خدمة شاملة للتسجيل في أفضل الجامعات الروسية، من اختيار التخصص المناسب حتى إتمام القبول",
+        registration_feature1: "اختيار الجامعة والتخصص المناسب",
+        registration_feature2: "تجهيز وتصديق جميع المستندات",
+        registration_feature3: "متابعة كاملة لإجراءات القبول",
         
-        translation_title: "خدمات الترجمة",
-        translation_description: "نقدم خدمات ترجمة معتمدة ودقيقة لجميع المستندات والوثائق المطلوبة",
-        translation_feature1: "ترجمة معتمدة للشهادات",
-        translation_feature2: "ترجمة الوثائق الرسمية",
-        translation_feature3: "خدمة سريعة ودقيقة",
+        translation_title: "خدمات الترجمة المعتمدة",
+        translation_description: "نوفر خدمات ترجمة معتمدة ودقيقة لكافة المستندات الدراسية والرسمية مع التصديق",
+        translation_feature1: "ترجمة معتمدة للشهادات والوثائق",
+        translation_feature2: "تصديق رسمي للترجمات",
+        translation_feature3: "خدمة سريعة وجودة عالية",
         
-        housing_title: "خدمة السكن",
-        housing_description: "نؤمن لك السكن المناسب في السكن الجامعي أو الشقق الخاصة بأفضل الأسعار",
-        housing_feature1: "سكن جامعي آمن",
-        housing_feature2: "شقق مفروشة راقية",
-        housing_feature3: "مواقع استراتيجية",
+        housing_title: "خدمات السكن الطلابي",
+        housing_description: "نضمن لك سكناً مريحاً وآمناً سواء في السكن الجامعي أو الشقق الخاصة بأسعار تنافسية",
+        housing_feature1: "سكن جامعي آمن ومجهز",
+        housing_feature2: "شقق مفروشة حديثة",
+        housing_feature3: "مواقع قريبة من الجامعات",
         
-        request_service: "طلب الخدمة",
+        request_service: "احجز الخدمة الآن",
         
         close: "إغلاق"
     },
     en: {
-        services_subtitle: "Our Services",
-        services_title: "Comprehensive Solutions for Studying in Russia",
-        most_requested: "Most Requested",
-        certified_translation: "Certified Translation",
-        guaranteed_housing: "Guaranteed Housing",
+        services_subtitle: "Our Premium Services",
+        services_title: "Comprehensive Study Solutions in Russia",
+        most_requested: "Most Popular Service",
+        certified_translation: "Officially Certified Translation",
+        guaranteed_housing: "Guaranteed Student Housing",
         
-        registration_title: "University Registration",
-        registration_description: "We accompany you on your university admission journey step by step, from choosing a university to confirming acceptance",
-        registration_feature1: "Choose the best universities",
+        registration_title: "University Enrollment",
+        registration_description: "We provide comprehensive support for enrollment in top Russian universities, from choosing the right program to completing admission",
+        registration_feature1: "University and program selection",
         registration_feature2: "Document preparation and certification",
-        registration_feature3: "Admission process follow-up",
+        registration_feature3: "Complete admission support",
         
-        translation_title: "Translation Services",
-        translation_description: "We provide certified and accurate translation for all required documents",
-        translation_feature1: "Certified certificate translation",
-        translation_feature2: "Official document translation",
-        translation_feature3: "Fast and accurate service",
+        translation_title: "Certified Translation Services",
+        translation_description: "We offer certified and accurate translation for all academic and official documents with authentication",
+        translation_feature1: "Certified document translation",
+        translation_feature2: "Official translation authentication",
+        translation_feature3: "Fast service with high quality",
         
-        housing_title: "Housing Service",
-        housing_description: "We secure suitable accommodation in university dorms or private apartments at the best prices",
-        housing_feature1: "Safe university housing",
-        housing_feature2: "Luxury furnished apartments",
-        housing_feature3: "Strategic locations",
+        housing_title: "Student Housing Services",
+        housing_description: "We guarantee comfortable and safe accommodation in either university dorms or private apartments at competitive prices",
+        housing_feature1: "Safe and equipped university housing",
+        housing_feature2: "Modern furnished apartments",
+        housing_feature3: "Locations near universities",
         
-        request_service: "Request Service",
+        request_service: "Book Service Now",
         
         close: "Close"
     },
     ru: {
-        services_subtitle: "Наши Услуги",
-        services_title: "Комплексные решения для обучения в России",
-        most_requested: "Самые востребованные",
-        certified_translation: "Сертифицированный перевод",
-        guaranteed_housing: "Гарантированное жилье",
+        services_subtitle: "Наши Премиум Услуги",
+        services_title: "Комплексные Решения для Обучения в России",
+        most_requested: "Самая Популярная Услуга",
+        certified_translation: "Официально Заверенный Перевод",
+        guaranteed_housing: "Гарантированное Студенческое Жилье",
         
-        registration_title: "Регистрация в университете",
-        registration_description: "Мы сопровождаем вас в процессе поступления в университет шаг за шагом, от выбора университета до получения подтверждения о зачислении",
-        registration_feature1: "Выбор лучших университетов",
+        registration_title: "Поступление в Университет",
+        registration_description: "Мы предоставляем комплексную поддержку при поступлении в ведущие российские университеты, от выбора программы до завершения приема",
+        registration_feature1: "Подбор университета и программы",
         registration_feature2: "Подготовка и заверение документов",
-        registration_feature3: "Подача заявления и контроль",
+        registration_feature3: "Полная поддержка поступления",
         
-        translation_title: "Услуги перевода",
-        translation_description: "Мы предоставляем сертифицированный и точный перевод всех необходимых документов",
-        translation_feature1: "Заверенный перевод сертификатов",
-        translation_feature2: "Перевод официальных документов",
-        translation_feature3: "Быстрый и точный сервис",
+        translation_title: "Услуги Заверенного Перевода",
+        translation_description: "Мы предлагаем сертифицированный и точный перевод всех академических и официальных документов с заверением",
+        translation_feature1: "Заверенный перевод документов",
+        translation_feature2: "Официальное заверение переводов",
+        translation_feature3: "Быстрый сервис высокого качества",
         
-        housing_title: "Услуги по размещению",
-        housing_description: "Мы обеспечиваем подходящее жилье в университетских общежитиях или частных квартирах по лучшим ценам",
+        housing_title: "Услуги Студенческого Жилья",
+        housing_description: "Мы гарантируем комфортное и безопасное проживание в общежитиях университета или частных квартирах по конкурентным ценам",
         housing_feature1: "Безопасное университетское жилье",
-        housing_feature2: "Элитные меблированные квартиры",
-        housing_feature3: "Стратегическое расположение",
+        housing_feature2: "Современные меблированные квартиры",
+        housing_feature3: "Расположение рядом с университетами",
         
-        request_service: "Заказать услугу",
+        request_service: "Забронировать Сейчас",
         
         close: "Закрыть"
     }
