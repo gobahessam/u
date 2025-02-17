@@ -123,7 +123,32 @@ document.addEventListener('DOMContentLoaded', function() {
             
             request_service: "احجز الخدمة الآن",
             
-            close: "إغلاق"
+            close: "إغلاق",
+            
+            // قسم خدمات الترجمة
+            translation_section_title: "خدمات الترجمة المعتمدة",
+            translation_section_subtitle: "ترجمة احترافية ودقيقة",
+            translation_section_description: "نقدم خدمات ترجمة معتمدة ودقيقة لجميع أنواع الوثائق مع ضمان الجودة والسرعة في التنفيذ",
+            
+            translation_legal: "الترجمة القانونية",
+            translation_legal_desc: "ترجمة معتمدة للوثائق القانونية والرسمية مع ختم وتصديق",
+            translation_legal_1: "ترجمة عقود وإتفاقيات",
+            translation_legal_2: "وثائق رسمية وشهادات",
+            translation_legal_3: "تصديق قانوني معتمد",
+            
+            translation_academic: "الترجمة الأكاديمية",
+            translation_academic_desc: "ترجمة دقيقة للوثائق الأكاديمية والبحوث العلمية",
+            translation_academic_1: "شهادات دراسية",
+            translation_academic_2: "أبحاث علمية",
+            translation_academic_3: "سجلات أكاديمية",
+            
+            translation_general: "الترجمة العامة",
+            translation_general_desc: "ترجمة احترافية لجميع أنواع النصوص والوثائق العامة",
+            translation_general_1: "مستندات شخصية",
+            translation_general_2: "محتوى تسويقي",
+            translation_general_3: "مواقع إلكترونية",
+            
+            request_translation: "طلب خدمة الترجمة",
         },
         en: {
             // Main Menu
@@ -176,7 +201,32 @@ document.addEventListener('DOMContentLoaded', function() {
             
             request_service: "Book Service Now",
             
-            close: "Close"
+            close: "Close",
+            
+            // Translation Services Section
+            translation_section_title: "Certified Translation Services",
+            translation_section_subtitle: "Professional and Accurate Translation",
+            translation_section_description: "We provide certified and accurate translation services for all types of documents with quality and speed guarantee",
+            
+            translation_legal: "Legal Translation",
+            translation_legal_desc: "Certified translation for legal and official documents with stamp and authentication",
+            translation_legal_1: "Contracts and Agreements",
+            translation_legal_2: "Official Documents and Certificates",
+            translation_legal_3: "Legal Authentication",
+            
+            translation_academic: "Academic Translation",
+            translation_academic_desc: "Accurate translation for academic documents and research papers",
+            translation_academic_1: "Academic Certificates",
+            translation_academic_2: "Research Papers",
+            translation_academic_3: "Academic Records",
+            
+            translation_general: "General Translation",
+            translation_general_desc: "Professional translation for all types of texts and general documents",
+            translation_general_1: "Personal Documents",
+            translation_general_2: "Marketing Content",
+            translation_general_3: "Websites",
+            
+            request_translation: "Request Translation Service",
         },
         ru: {
             // Главное меню
@@ -229,7 +279,32 @@ document.addEventListener('DOMContentLoaded', function() {
             
             request_service: "Забронировать Сейчас",
             
-            close: "Закрыть"
+            close: "Закрыть",
+            
+            // Раздел Услуг Перевода
+            translation_section_title: "Услуги Сертифицированного Перевода",
+            translation_section_subtitle: "Профессиональный и Точный Перевод",
+            translation_section_description: "Мы предоставляем сертифицированные и точные услуги перевода для всех типов документов с гарантией качества и скорости",
+            
+            translation_legal: "Юридический Перевод",
+            translation_legal_desc: "Сертифицированный перевод юридических и официальных документов с печатью и заверением",
+            translation_legal_1: "Контракты и Соглашения",
+            translation_legal_2: "Официальные Документы и Сертификаты",
+            translation_legal_3: "Юридическое Заверение",
+            
+            translation_academic: "Академический Перевод",
+            translation_academic_desc: "Точный перевод академических документов и научных работ",
+            translation_academic_1: "Академические Сертификаты",
+            translation_academic_2: "Научные Работы",
+            translation_academic_3: "Академические Записи",
+            
+            translation_general: "Общий Перевод",
+            translation_general_desc: "Профессиональный перевод всех видов текстов и общих документов",
+            translation_general_1: "Личные Документы",
+            translation_general_2: "Маркетинговые Материалы",
+            translation_general_3: "Веб-сайты",
+            
+            request_translation: "Заказать Услугу Перевода",
         }
     };
 
@@ -568,7 +643,32 @@ const translations = {
         
         request_service: "احجز الخدمة الآن",
         
-        close: "إغلاق"
+        close: "إغلاق",
+        
+        // قسم خدمات الترجمة
+        translation_section_title: "خدمات الترجمة المعتمدة",
+        translation_section_subtitle: "ترجمة احترافية ودقيقة",
+        translation_section_description: "نقدم خدمات ترجمة معتمدة ودقيقة لجميع أنواع الوثائق مع ضمان الجودة والسرعة في التنفيذ",
+        
+        translation_legal: "الترجمة القانونية",
+        translation_legal_desc: "ترجمة معتمدة للوثائق القانونية والرسمية مع ختم وتصديق",
+        translation_legal_1: "ترجمة عقود وإتفاقيات",
+        translation_legal_2: "وثائق رسمية وشهادات",
+        translation_legal_3: "تصديق قانوني معتمد",
+        
+        translation_academic: "الترجمة الأكاديمية",
+        translation_academic_desc: "ترجمة دقيقة للوثائق الأكاديمية والبحوث العلمية",
+        translation_academic_1: "شهادات دراسية",
+        translation_academic_2: "أبحاث علمية",
+        translation_academic_3: "سجلات أكاديمية",
+        
+        translation_general: "الترجمة العامة",
+        translation_general_desc: "ترجمة احترافية لجميع أنواع النصوص والوثائق العامة",
+        translation_general_1: "مستندات شخصية",
+        translation_general_2: "محتوى تسويقي",
+        translation_general_3: "مواقع إلكترونية",
+        
+        request_translation: "طلب خدمة الترجمة",
     },
     en: {
         services_subtitle: "Our Premium Services",
@@ -597,7 +697,32 @@ const translations = {
         
         request_service: "Book Service Now",
         
-        close: "Close"
+        close: "Close",
+        
+        // Translation Services Section
+        translation_section_title: "Certified Translation Services",
+        translation_section_subtitle: "Professional and Accurate Translation",
+        translation_section_description: "We provide certified and accurate translation services for all types of documents with quality and speed guarantee",
+        
+        translation_legal: "Legal Translation",
+        translation_legal_desc: "Certified translation for legal and official documents with stamp and authentication",
+        translation_legal_1: "Contracts and Agreements",
+        translation_legal_2: "Official Documents and Certificates",
+        translation_legal_3: "Legal Authentication",
+        
+        translation_academic: "Academic Translation",
+        translation_academic_desc: "Accurate translation for academic documents and research papers",
+        translation_academic_1: "Academic Certificates",
+        translation_academic_2: "Research Papers",
+        translation_academic_3: "Academic Records",
+        
+        translation_general: "General Translation",
+        translation_general_desc: "Professional translation for all types of texts and general documents",
+        translation_general_1: "Personal Documents",
+        translation_general_2: "Marketing Content",
+        translation_general_3: "Websites",
+        
+        request_translation: "Request Translation Service",
     },
     ru: {
         services_subtitle: "Наши Премиум Услуги",
@@ -626,7 +751,32 @@ const translations = {
         
         request_service: "Забронировать Сейчас",
         
-        close: "Закрыть"
+        close: "Закрыть",
+        
+        // Раздел Услуг Перевода
+        translation_section_title: "Услуги Сертифицированного Перевода",
+        translation_section_subtitle: "Профессиональный и Точный Перевод",
+        translation_section_description: "Мы предоставляем сертифицированные и точные услуги перевода для всех типов документов с гарантией качества и скорости",
+        
+        translation_legal: "Юридический Перевод",
+        translation_legal_desc: "Сертифицированный перевод юридических и официальных документов с печатью и заверением",
+        translation_legal_1: "Контракты и Соглашения",
+        translation_legal_2: "Официальные Документы и Сертификаты",
+        translation_legal_3: "Юридическое Заверение",
+        
+        translation_academic: "Академический Перевод",
+        translation_academic_desc: "Точный перевод академических документов и научных работ",
+        translation_academic_1: "Академические Сертификаты",
+        translation_academic_2: "Научные Работы",
+        translation_academic_3: "Академические Записи",
+        
+        translation_general: "Общий Перевод",
+        translation_general_desc: "Профессиональный перевод всех видов текстов и общих документов",
+        translation_general_1: "Личные Документы",
+        translation_general_2: "Маркетинговые Материалы",
+        translation_general_3: "Веб-сайты",
+        
+        request_translation: "Заказать Услугу Перевода",
     }
 };
 
