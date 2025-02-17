@@ -73,100 +73,136 @@ document.addEventListener('DOMContentLoaded', function() {
     // تخزين النصوص بجميع اللغات
     const translations = {
         ar: {
+            // القائمة الرئيسية
             site_title: 'أوتشوبا للدراسة في روسيا',
             brand_name: 'أوتشوبا',
             study_subtitle: 'للدراسة في روسيا',
             study: 'الدراسة',
             tourism: 'السياحة',
             contact: 'اتصل بنا',
-            services_subtitle: "خدماتنا",
-            services_title: "حلول متكاملة للدراسة في روسيا",
-            most_requested: "الأكثر طلباً",
-            top_universities: "أفضل الجامعات الروسية",
-            hero_title: "الدراسة في روسيا",
-            hero_description: "انضم إلى آلاف الطلاب في رحلة تعليمية مميزة في أفضل الجامعات الروسية",
-            universities: "جامعة",
-            students: "طالب",
-            programs: "برنامج",
-            learn_more: "اكتشف المزيد",
-            contact_us: "تواصل معنا",
-            translation_subtitle: "خدمات الترجمة",
-            translation_title: "خدمات ترجمة احترافية",
-            translation_description: "نقدم خدمات ترجمة احترافية ودقيقة بمختلف المجالات مع ضمان الجودة والسرعة في التنفيذ",
-            reg_steps_subtitle: "خطوات التسجيل",
-            reg_steps_title: "كيف تبدأ رحلة دراستك في روسيا",
-            start_registration: "ابدأ التسجيل الآن",
-            insurance_subtitle: "التأمين الطبي",
-            insurance_title: "خدمات التأمين الطبي للطلاب",
-            faq_subtitle: "الأسئلة الشائعة",
-            faq_title: "كل ما تريد معرفته عن الدراسة في روسيا",
-            faq_q4: "هل يجب أن أتعلم اللغة الروسية قبل الدراسة؟",
-            registration_description: "نساعدك في اختيار الجامعة المناسبة وإكمال إجراءات القبول بكل سهولة ويسر",
-            form_success_message: 'سيتم تحويلك إلى الواتساب للتواصل معنا'
+            language: 'اللغة',
+
+            // قسم الهيرو
+            hero_badge: 'شريك موثوق في التعليم العالي',
+            hero_title: 'ابدأ رحلتك الدراسية في روسيا',
+            hero_description: 'نفتح لك أبواب المستقبل مع أفضل الجامعات الروسية. خدمات شاملة ودعم متكامل لتحقيق حلمك في التعليم العالي.',
+            
+            // الميزات
+            feature_programs: 'برامج معتمدة',
+            feature_programs_desc: 'شهادات معترف بها دولياً',
+            feature_support: 'دعم شامل',
+            feature_support_desc: 'مرافقة من البداية للنهاية',
+            feature_experience: 'خبرة دولية',
+            feature_experience_desc: 'فريق متخصص في التعليم الدولي',
+            
+            // الخدمات
+            services_title: 'خدماتنا',
+            services_subtitle: 'حلول متكاملة للدراسة في روسيا',
+            service_registration: 'التسجيل في الجامعات',
+            service_visa: 'تأشيرة الدراسة',
+            service_housing: 'السكن الطلابي',
+            service_translation: 'خدمات الترجمة',
+            
+            // الأسئلة الشائعة
+            faq_title: 'الأسئلة الشائعة',
+            faq_subtitle: 'كل ما تريد معرفته عن الدراسة في روسيا',
+            
+            // نموذج التواصل
+            contact_us: 'تواصل معنا',
+            free_consultation: 'احصل على استشارة مجانية',
+            name: 'الاسم',
+            email: 'البريد الإلكتروني',
+            phone: 'رقم الهاتف',
+            message: 'الرسالة',
+            send: 'إرسال'
         },
         en: {
+            // Main Menu
             site_title: 'Uchoba Study in Russia',
             brand_name: 'Uchoba',
             study_subtitle: 'Study in Russia',
             study: 'Study',
             tourism: 'Tourism',
             contact: 'Contact Us',
-            services_subtitle: "Our Services",
-            services_title: "Comprehensive Solutions for Studying in Russia",
-            most_requested: "Most Requested",
-            top_universities: "Top Russian Universities",
-            hero_title: "Study in Russia",
-            hero_description: "Join thousands of students on an exceptional educational journey in Russia's finest universities",
-            universities: "Universities",
-            students: "Students",
-            programs: "Programs",
-            learn_more: "Learn More",
-            contact_us: "Contact Us",
-            translation_subtitle: "Translation Services",
-            translation_title: "Professional Translation Services",
-            translation_description: "We provide professional and accurate translation services in various fields with guaranteed quality and speed",
-            reg_steps_subtitle: "Registration Steps",
-            reg_steps_title: "How to Start Your Study Journey in Russia",
-            start_registration: "Start Registration Now",
-            insurance_subtitle: "Medical Insurance",
-            insurance_title: "Student Medical Insurance Services",
-            faq_subtitle: "FAQ",
-            faq_title: "Everything You Need to Know About Studying in Russia",
-            faq_q4: "Do I need to learn Russian before studying?",
-            registration_description: "We help you choose the right university and complete admission procedures easily",
-            form_success_message: 'You will be redirected to WhatsApp to contact us'
+            language: 'Language',
+
+            // Hero Section
+            hero_badge: 'Trusted Education Partner',
+            hero_title: 'Start Your Study Journey in Russia',
+            hero_description: 'We open doors to your future with the best Russian universities. Comprehensive services and support to achieve your educational dreams.',
+            
+            // Features
+            feature_programs: 'Accredited Programs',
+            feature_programs_desc: 'Internationally recognized certificates',
+            feature_support: 'Complete Support',
+            feature_support_desc: 'Guidance from start to finish',
+            feature_experience: 'International Experience',
+            feature_experience_desc: 'Specialized team in international education',
+            
+            // Services
+            services_title: 'Our Services',
+            services_subtitle: 'Comprehensive Solutions for Studying in Russia',
+            service_registration: 'University Registration',
+            service_visa: 'Study Visa',
+            service_housing: 'Student Housing',
+            service_translation: 'Translation Services',
+            
+            // FAQ
+            faq_title: 'FAQ',
+            faq_subtitle: 'Everything You Need to Know About Studying in Russia',
+            
+            // Contact Form
+            contact_us: 'Contact Us',
+            free_consultation: 'Get Free Consultation',
+            name: 'Name',
+            email: 'Email',
+            phone: 'Phone Number',
+            message: 'Message',
+            send: 'Send'
         },
         ru: {
-            site_title: 'Учоба Обучение в России',
+            // Главное меню
+            site_title: 'Учоба - Обучение в России',
             brand_name: 'Учоба',
             study_subtitle: 'Обучение в России',
             study: 'Учеба',
             tourism: 'Туризм',
-            contact: 'Свяжитесь с нами',
-            services_subtitle: "Наши Услуги",
-            services_title: "Комплексные решения для обучения в России",
-            most_requested: "Самые востребованные",
-            top_universities: "Лучшие российские университеты",
-            hero_title: "Обучение в России",
-            hero_description: "Присоединяйтесь к тысячам студентов в исключительном образовательном путешествии в лучших университетах России",
-            universities: "Университетов",
-            students: "Студентов",
-            programs: "Программ",
-            learn_more: "Узнать больше",
-            contact_us: "Связаться с нами",
-            translation_subtitle: "Услуги перевода",
-            translation_title: "Профессиональные услуги перевода",
-            translation_description: "Мы предоставляем профессиональные и точные услуги перевода в различных областях с гарантированным качеством и скоростью",
-            reg_steps_subtitle: "Этапы регистрации",
-            reg_steps_title: "Как начать учебу в России",
-            start_registration: "Начать регистрацию",
-            insurance_subtitle: "Медицинское страхование",
-            insurance_title: "Услуги медицинского страхования студентов",
-            faq_subtitle: "Часто задаваемые вопросы",
-            faq_title: "Все, что нужно знать об обучении в России",
-            faq_q4: "Нужно ли учить русский язык перед обучением?",
-            registration_description: "Мы поможем вам выбрать подходящий университет и легко пройти процедуру поступления",
-            form_success_message: 'Вы будете перенаправлены в WhatsApp для связи с нами'
+            contact: 'Контакты',
+            language: 'Язык',
+
+            // Герой секция
+            hero_badge: 'Надежный партнер в образовании',
+            hero_title: 'Начните учебу в России',
+            hero_description: 'Мы открываем двери в ваше будущее с лучшими российскими университетами. Комплексные услуги и поддержка для достижения ваших образовательных целей.',
+            
+            // Преимущества
+            feature_programs: 'Аккредитованные программы',
+            feature_programs_desc: 'Международно признанные сертификаты',
+            feature_support: 'Полная поддержка',
+            feature_support_desc: 'Сопровождение от начала до конца',
+            feature_experience: 'Международный опыт',
+            feature_experience_desc: 'Специализированная команда в международном образовании',
+            
+            // Услуги
+            services_title: 'Наши услуги',
+            services_subtitle: 'Комплексные решения для обучения в России',
+            service_registration: 'Регистрация в университетах',
+            service_visa: 'Учебная виза',
+            service_housing: 'Студенческое жилье',
+            service_translation: 'Услуги перевода',
+            
+            // FAQ
+            faq_title: 'Частые вопросы',
+            faq_subtitle: 'Все, что нужно знать об обучении в России',
+            
+            // Контактная форма
+            contact_us: 'Свяжитесь с нами',
+            free_consultation: 'Получить бесплатную консультацию',
+            name: 'Имя',
+            email: 'Эл. почта',
+            phone: 'Номер телефона',
+            message: 'Сообщение',
+            send: 'Отправить'
         }
     };
 
