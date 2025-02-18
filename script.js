@@ -149,6 +149,60 @@ document.addEventListener('DOMContentLoaded', function() {
             translation_general_3: "مواقع إلكترونية",
             
             request_translation: "طلب خدمة الترجمة",
+            
+            // قسم خطوات التسجيل
+            registration_steps_subtitle: "خطوات بسيطة وواضحة",
+            registration_steps_title: "خطوات التسجيل في الجامعة",
+            registration_steps_description: "نقدم لك دليلاً تفصيلياً لخطوات التسجيل في الجامعات الروسية",
+            
+            step1_title: "تجهيز المستندات",
+            step1_description: "تجهيز وترجمة جميع المستندات المطلوبة",
+            step1_detail1: "جواز السفر",
+            step1_detail2: "الشهادات الأكاديمية",
+            step1_detail3: "الشهادة الصحية",
+            
+            step2_title: "اختيار الجامعة",
+            step2_description: "اختيار الجامعة والتخصص المناسب",
+            step2_detail1: "اختيار التخصص",
+            step2_detail2: "تحديد الجامعة",
+            step2_detail3: "دراسة التكاليف",
+            
+            step3_title: "تقديم الطلب",
+            step3_description: "تقديم طلب القبول للجامعة",
+            step3_detail1: "ملء نموذج التقديم",
+            step3_detail2: "إرسال المستندات",
+            step3_detail3: "دفع رسوم التقديم",
+            
+            step4_title: "القبول والتأشيرة",
+            step4_description: "استلام القبول وإجراءات التأشيرة",
+            step4_detail1: "استلام خطاب القبول",
+            step4_detail2: "تقديم طلب التأشيرة",
+            step4_detail3: "حجز السكن",
+            
+            start_application: "ابدأ رحلة دراستك الآن",
+            
+            // قسم التأمين الطبي
+            insurance_subtitle: "حماية صحية شاملة",
+            insurance_title: "التأمين الطبي للطلاب",
+            insurance_description: "نوفر تغطية تأمينية شاملة لضمان رعايتك الصحية خلال فترة دراستك",
+            
+            insurance_coverage_title: "تغطية شاملة",
+            insurance_coverage_1: "تغطية العلاج في المستشفيات",
+            insurance_coverage_2: "خدمات الطوارئ على مدار 24 ساعة",
+            insurance_coverage_3: "الفحوصات الطبية الدورية",
+            
+            insurance_features_title: "مميزات التأمين",
+            insurance_feature_1: "شبكة واسعة من المستشفيات",
+            insurance_feature_2: "خدمة العملاء بلغات متعددة",
+            insurance_feature_3: "تغطية الأدوية الموصوفة",
+            
+            insurance_services_title: "خدمات إضافية",
+            insurance_service_1: "استشارات طبية عن بعد",
+            insurance_service_2: "خدمات الإسعاف المجانية",
+            insurance_service_3: "تغطية العلاج النفسي",
+            
+            insurance_cta_text: "احصل على تغطية تأمينية شاملة لرحلتك الدراسية",
+            insurance_cta_button: "تواصل معنا للحصول على التأمين",
         },
         en: {
             // Main Menu
@@ -227,6 +281,60 @@ document.addEventListener('DOMContentLoaded', function() {
             translation_general_3: "Websites",
             
             request_translation: "Request Translation Service",
+            
+            // Registration Steps Section
+            registration_steps_subtitle: "Simple and Clear Steps",
+            registration_steps_title: "University Registration Steps",
+            registration_steps_description: "We provide a detailed guide for registration in Russian universities",
+            
+            step1_title: "Document Preparation",
+            step1_description: "Prepare and translate all required documents",
+            step1_detail1: "Passport",
+            step1_detail2: "Academic Certificates",
+            step1_detail3: "Health Certificate",
+            
+            step2_title: "University Selection",
+            step2_description: "Choose the right university and specialization",
+            step2_detail1: "Choose Specialization",
+            step2_detail2: "Select University",
+            step2_detail3: "Study Costs",
+            
+            step3_title: "Application Submission",
+            step3_description: "Submit university admission application",
+            step3_detail1: "Fill Application Form",
+            step3_detail2: "Submit Documents",
+            step3_detail3: "Pay Application Fees",
+            
+            step4_title: "Admission and Visa",
+            step4_description: "Receive admission and visa procedures",
+            step4_detail1: "Receive Acceptance Letter",
+            step4_detail2: "Apply for Visa",
+            step4_detail3: "Book Accommodation",
+            
+            start_application: "Start Your Study Journey Now",
+            
+            // Insurance Section
+            insurance_subtitle: "Comprehensive Health Protection",
+            insurance_title: "Student Medical Insurance",
+            insurance_description: "We provide comprehensive insurance coverage to ensure your healthcare during your studies",
+            
+            insurance_coverage_title: "Full Coverage",
+            insurance_coverage_1: "Hospital Treatment Coverage",
+            insurance_coverage_2: "24/7 Emergency Services",
+            insurance_coverage_3: "Regular Medical Check-ups",
+            
+            insurance_features_title: "Insurance Features",
+            insurance_feature_1: "Wide Network of Hospitals",
+            insurance_feature_2: "Multilingual Customer Service",
+            insurance_feature_3: "Prescription Medicine Coverage",
+            
+            insurance_services_title: "Additional Services",
+            insurance_service_1: "Telemedicine Consultations",
+            insurance_service_2: "Free Ambulance Services",
+            insurance_service_3: "Mental Health Coverage",
+            
+            insurance_cta_text: "Get comprehensive insurance coverage for your academic journey",
+            insurance_cta_button: "Contact us for insurance",
         },
         ru: {
             // Главное меню
@@ -305,6 +413,60 @@ document.addEventListener('DOMContentLoaded', function() {
             translation_general_3: "Веб-сайты",
             
             request_translation: "Заказать Услугу Перевода",
+            
+            // Раздел Шаги Регистрации
+            registration_steps_subtitle: "Простые и Понятные Шаги",
+            registration_steps_title: "Этапы Поступления в Университет",
+            registration_steps_description: "Мы предоставляем подробное руководство по этапам регистрации в российских университетах",
+            
+            step1_title: "Подготовка Документов",
+            step1_description: "Подготовка и перевод всех необходимых документов",
+            step1_detail1: "Паспорт",
+            step1_detail2: "Академические Сертификаты",
+            step1_detail3: "Медицинская Справка",
+            
+            step2_title: "Выбор Университета",
+            step2_description: "Выбор подходящего университета и специальности",
+            step2_detail1: "Выбор Специальности",
+            step2_detail2: "Выбор Университета",
+            step2_detail3: "Изучение Стоимости",
+            
+            step3_title: "Подача Заявления",
+            step3_description: "Подача заявления на поступление",
+            step3_detail1: "Заполнение Анкеты",
+            step3_detail2: "Отправка Документов",
+            step3_detail3: "Оплата Сбора",
+            
+            step4_title: "Зачисление и Виза",
+            step4_description: "Получение зачисления и оформление визы",
+            step4_detail1: "Получение Письма о Зачислении",
+            step4_detail2: "Подача на Визу",
+            step4_detail3: "Бронирование Жилья",
+            
+            start_application: "Начните Свое Обучение Сейчас",
+            
+            // Insurance Section
+            insurance_subtitle: "Комплексная Защита Здоровья",
+            insurance_title: "Медицинское Страхование Студентов",
+            insurance_description: "Мы предоставляем комплексное страховое покрытие для обеспечения вашего здоровья во время учебы",
+            
+            insurance_coverage_title: "Полное Покрытие",
+            insurance_coverage_1: "Покрытие Лечения в Больницах",
+            insurance_coverage_2: "Круглосуточные Экстренные Службы",
+            insurance_coverage_3: "Регулярные Медицинские Осмотры",
+            
+            insurance_features_title: "Особенности Страхования",
+            insurance_feature_1: "Широкая Сеть Больниц",
+            insurance_feature_2: "Многоязычная Служба Поддержки",
+            insurance_feature_3: "Покрытие Рецептурных Лекарств",
+            
+            insurance_services_title: "Дополнительные Услуги",
+            insurance_service_1: "Телемедицинские Консультации",
+            insurance_service_2: "Бесплатные Услуги Скорой Помощи",
+            insurance_service_3: "Покрытие Психологической Помощи",
+            
+            insurance_cta_text: "Получите комплексное страховое покрытие для вашего обучения",
+            insurance_cta_button: "Свяжитесь с нами для страхования",
         }
     };
 
@@ -669,6 +831,60 @@ const translations = {
         translation_general_3: "مواقع إلكترونية",
         
         request_translation: "طلب خدمة الترجمة",
+        
+        // قسم خطوات التسجيل
+        registration_steps_subtitle: "خطوات بسيطة وواضحة",
+        registration_steps_title: "خطوات التسجيل في الجامعة",
+        registration_steps_description: "نقدم لك دليلاً تفصيلياً لخطوات التسجيل في الجامعات الروسية",
+        
+        step1_title: "تجهيز المستندات",
+        step1_description: "تجهيز وترجمة جميع المستندات المطلوبة",
+        step1_detail1: "جواز السفر",
+        step1_detail2: "الشهادات الأكاديمية",
+        step1_detail3: "الشهادة الصحية",
+        
+        step2_title: "اختيار الجامعة",
+        step2_description: "اختيار الجامعة والتخصص المناسب",
+        step2_detail1: "اختيار التخصص",
+        step2_detail2: "تحديد الجامعة",
+        step2_detail3: "دراسة التكاليف",
+        
+        step3_title: "تقديم الطلب",
+        step3_description: "تقديم طلب القبول للجامعة",
+        step3_detail1: "ملء نموذج التقديم",
+        step3_detail2: "إرسال المستندات",
+        step3_detail3: "دفع رسوم التقديم",
+        
+        step4_title: "القبول والتأشيرة",
+        step4_description: "استلام القبول وإجراءات التأشيرة",
+        step4_detail1: "استلام خطاب القبول",
+        step4_detail2: "تقديم طلب التأشيرة",
+        step4_detail3: "حجز السكن",
+        
+        start_application: "ابدأ رحلة دراستك الآن",
+        
+        // قسم التأمين الطبي
+        insurance_subtitle: "حماية صحية شاملة",
+        insurance_title: "التأمين الطبي للطلاب",
+        insurance_description: "نوفر تغطية تأمينية شاملة لضمان رعايتك الصحية خلال فترة دراستك",
+        
+        insurance_coverage_title: "تغطية شاملة",
+        insurance_coverage_1: "تغطية العلاج في المستشفيات",
+        insurance_coverage_2: "خدمات الطوارئ على مدار 24 ساعة",
+        insurance_coverage_3: "الفحوصات الطبية الدورية",
+        
+        insurance_features_title: "مميزات التأمين",
+        insurance_feature_1: "شبكة واسعة من المستشفيات",
+        insurance_feature_2: "خدمة العملاء بلغات متعددة",
+        insurance_feature_3: "تغطية الأدوية الموصوفة",
+        
+        insurance_services_title: "خدمات إضافية",
+        insurance_service_1: "استشارات طبية عن بعد",
+        insurance_service_2: "خدمات الإسعاف المجانية",
+        insurance_service_3: "تغطية العلاج النفسي",
+        
+        insurance_cta_text: "احصل على تغطية تأمينية شاملة لرحلتك الدراسية",
+        insurance_cta_button: "تواصل معنا للحصول على التأمين",
     },
     en: {
         services_subtitle: "Our Premium Services",
@@ -723,6 +939,60 @@ const translations = {
         translation_general_3: "Websites",
         
         request_translation: "Request Translation Service",
+        
+        // Registration Steps Section
+        registration_steps_subtitle: "Simple and Clear Steps",
+        registration_steps_title: "University Registration Steps",
+        registration_steps_description: "We provide a detailed guide for registration in Russian universities",
+        
+        step1_title: "Document Preparation",
+        step1_description: "Prepare and translate all required documents",
+        step1_detail1: "Passport",
+        step1_detail2: "Academic Certificates",
+        step1_detail3: "Health Certificate",
+        
+        step2_title: "University Selection",
+        step2_description: "Choose the right university and specialization",
+        step2_detail1: "Choose Specialization",
+        step2_detail2: "Select University",
+        step2_detail3: "Study Costs",
+        
+        step3_title: "Application Submission",
+        step3_description: "Submit university admission application",
+        step3_detail1: "Fill Application Form",
+        step3_detail2: "Submit Documents",
+        step3_detail3: "Pay Application Fees",
+        
+        step4_title: "Admission and Visa",
+        step4_description: "Receive admission and visa procedures",
+        step4_detail1: "Receive Acceptance Letter",
+        step4_detail2: "Apply for Visa",
+        step4_detail3: "Book Accommodation",
+        
+        start_application: "Start Your Study Journey Now",
+        
+        // Insurance Section
+        insurance_subtitle: "Comprehensive Health Protection",
+        insurance_title: "Student Medical Insurance",
+        insurance_description: "We provide comprehensive insurance coverage to ensure your healthcare during your studies",
+        
+        insurance_coverage_title: "Full Coverage",
+        insurance_coverage_1: "Hospital Treatment Coverage",
+        insurance_coverage_2: "24/7 Emergency Services",
+        insurance_coverage_3: "Regular Medical Check-ups",
+        
+        insurance_features_title: "Insurance Features",
+        insurance_feature_1: "Wide Network of Hospitals",
+        insurance_feature_2: "Multilingual Customer Service",
+        insurance_feature_3: "Prescription Medicine Coverage",
+        
+        insurance_services_title: "Additional Services",
+        insurance_service_1: "Telemedicine Consultations",
+        insurance_service_2: "Free Ambulance Services",
+        insurance_service_3: "Mental Health Coverage",
+        
+        insurance_cta_text: "Get comprehensive insurance coverage for your academic journey",
+        insurance_cta_button: "Contact us for insurance",
     },
     ru: {
         services_subtitle: "Наши Премиум Услуги",
@@ -777,6 +1047,60 @@ const translations = {
         translation_general_3: "Веб-сайты",
         
         request_translation: "Заказать Услугу Перевода",
+        
+        // Раздел Шаги Регистрации
+        registration_steps_subtitle: "Простые и Понятные Шаги",
+        registration_steps_title: "Этапы Поступления в Университет",
+        registration_steps_description: "Мы предоставляем подробное руководство по этапам регистрации в российских университетах",
+        
+        step1_title: "Подготовка Документов",
+        step1_description: "Подготовка и перевод всех необходимых документов",
+        step1_detail1: "Паспорт",
+        step1_detail2: "Академические Сертификаты",
+        step1_detail3: "Медицинская Справка",
+        
+        step2_title: "Выбор Университета",
+        step2_description: "Выбор подходящего университета и специальности",
+        step2_detail1: "Выбор Специальности",
+        step2_detail2: "Выбор Университета",
+        step2_detail3: "Изучение Стоимости",
+        
+        step3_title: "Подача Заявления",
+        step3_description: "Подача заявления на поступление",
+        step3_detail1: "Заполнение Анкеты",
+        step3_detail2: "Отправка Документов",
+        step3_detail3: "Оплата Сбора",
+        
+        step4_title: "Зачисление и Виза",
+        step4_description: "Получение зачисления и оформление визы",
+        step4_detail1: "Получение Письма о Зачислении",
+        step4_detail2: "Подача на Визу",
+        step4_detail3: "Бронирование Жилья",
+        
+        start_application: "Начните Свое Обучение Сейчас",
+        
+        // Insurance Section
+        insurance_subtitle: "Комплексная Защита Здоровья",
+        insurance_title: "Медицинское Страхование Студентов",
+        insurance_description: "Мы предоставляем комплексное страховое покрытие для обеспечения вашего здоровья во время учебы",
+        
+        insurance_coverage_title: "Полное Покрытие",
+        insurance_coverage_1: "Покрытие Лечения в Больницах",
+        insurance_coverage_2: "Круглосуточные Экстренные Службы",
+        insurance_coverage_3: "Регулярные Медицинские Осмотры",
+        
+        insurance_features_title: "Особенности Страхования",
+        insurance_feature_1: "Широкая Сеть Больниц",
+        insurance_feature_2: "Многоязычная Служба Поддержки",
+        insurance_feature_3: "Покрытие Рецептурных Лекарств",
+        
+        insurance_services_title: "Дополнительные Услуги",
+        insurance_service_1: "Телемедицинские Консультации",
+        insurance_service_2: "Бесплатные Услуги Скорой Помощи",
+        insurance_service_3: "Покрытие Психологической Помощи",
+        
+        insurance_cta_text: "Получите комплексное страховое покрытие для вашего обучения",
+        insurance_cta_button: "Свяжитесь с нами для страхования",
     }
 };
 
@@ -797,6 +1121,106 @@ const newTranslations = {
 Object.keys(translations).forEach(lang => {
     translations[lang] = { ...translations[lang], ...newTranslations[lang] };
 });
+
+// تحديث الترجمات لقسم خطوات التسجيل
+translations.ar = {
+    ...translations.ar,
+    registration_steps_subtitle: "خطوات بسيطة وواضحة",
+    registration_steps_title: "خطوات التسجيل في الجامعة",
+    registration_steps_description: "نقدم لك دليلاً تفصيلياً لخطوات التسجيل في الجامعات الروسية",
+    
+    step1_title: "تجهيز المستندات",
+    step1_description: "تجهيز وترجمة جميع المستندات المطلوبة",
+    step1_detail1: "جواز السفر",
+    step1_detail2: "الشهادات الأكاديمية",
+    step1_detail3: "الشهادة الصحية",
+    
+    step2_title: "اختيار الجامعة",
+    step2_description: "اختيار الجامعة والتخصص المناسب",
+    step2_detail1: "اختيار التخصص",
+    step2_detail2: "تحديد الجامعة",
+    step2_detail3: "دراسة التكاليف",
+    
+    step3_title: "تقديم الطلب",
+    step3_description: "تقديم طلب القبول للجامعة",
+    step3_detail1: "ملء نموذج التقديم",
+    step3_detail2: "إرسال المستندات",
+    step3_detail3: "دفع رسوم التقديم",
+    
+    step4_title: "القبول والتأشيرة",
+    step4_description: "استلام القبول وإجراءات التأشيرة",
+    step4_detail1: "استلام خطاب القبول",
+    step4_detail2: "تقديم طلب التأشيرة",
+    step4_detail3: "حجز السكن",
+    
+    start_application: "ابدأ رحلة دراستك الآن",
+};
+
+translations.en = {
+    ...translations.en,
+    registration_steps_subtitle: "Simple and Clear Steps",
+    registration_steps_title: "University Registration Steps",
+    registration_steps_description: "We provide a detailed guide for registration in Russian universities",
+    
+    step1_title: "Document Preparation",
+    step1_description: "Prepare and translate all required documents",
+    step1_detail1: "Passport",
+    step1_detail2: "Academic Certificates",
+    step1_detail3: "Health Certificate",
+    
+    step2_title: "University Selection",
+    step2_description: "Choose the right university and specialization",
+    step2_detail1: "Choose Specialization",
+    step2_detail2: "Select University",
+    step2_detail3: "Study Costs",
+    
+    step3_title: "Application Submission",
+    step3_description: "Submit university admission application",
+    step3_detail1: "Fill Application Form",
+    step3_detail2: "Submit Documents",
+    step3_detail3: "Pay Application Fees",
+    
+    step4_title: "Admission and Visa",
+    step4_description: "Receive admission and visa procedures",
+    step4_detail1: "Receive Acceptance Letter",
+    step4_detail2: "Apply for Visa",
+    step4_detail3: "Book Accommodation",
+    
+    start_application: "Start Your Study Journey Now",
+};
+
+translations.ru = {
+    ...translations.ru,
+    registration_steps_subtitle: "Простые и Понятные Шаги",
+    registration_steps_title: "Этапы Поступления в Университет",
+    registration_steps_description: "Мы предоставляем подробное руководство по этапам регистрации в российских университетах",
+    
+    step1_title: "Подготовка Документов",
+    step1_description: "Подготовка и перевод всех необходимых документов",
+    step1_detail1: "Паспорт",
+    step1_detail2: "Академические Сертификаты",
+    step1_detail3: "Медицинская Справка",
+    
+    step2_title: "Выбор Университета",
+    step2_description: "Выбор подходящего университета и специальности",
+    step2_detail1: "Выбор Специальности",
+    step2_detail2: "Выбор Университета",
+    step2_detail3: "Изучение Стоимости",
+    
+    step3_title: "Подача Заявления",
+    step3_description: "Подача заявления на поступление",
+    step3_detail1: "Заполнение Анкеты",
+    step3_detail2: "Отправка Документов",
+    step3_detail3: "Оплата Сбора",
+    
+    step4_title: "Зачисление и Виза",
+    step4_description: "Получение зачисления и оформление визы",
+    step4_detail1: "Получение Письма о Зачислении",
+    step4_detail2: "Подача на Визу",
+    step4_detail3: "Бронирование Жилья",
+    
+    start_application: "Начните Свое Обучение Сейчас",
+};
 
 // رقم الواتساب الخاص بالشركة
 const WHATSAPP_NUMBER = '79964072422';
