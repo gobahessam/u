@@ -203,6 +203,28 @@ document.addEventListener('DOMContentLoaded', function() {
             
             insurance_cta_text: "احصل على تغطية تأمينية شاملة لرحلتك الدراسية",
             insurance_cta_button: "تواصل معنا للحصول على التأمين",
+            
+            // الأسئلة الشائعة
+            faq_subtitle: "الأسئلة الشائعة",
+            faq_title: "كل ما تريد معرفته عن الدراسة في روسيا",
+            faq_description: "إجابات على أهم الأسئلة التي قد تخطر ببالك حول الدراسة في روسيا",
+            faq_q1: "ما هي المستندات المطلوبة للدراسة في روسيا؟",
+            faq_a1: "المستندات الأساسية المطلوبة هي: جواز السفر ساري المفعول، الشهادة الثانوية مترجمة ومصدقة، شهادة خلو من الأمراض المعدية، وصور شخصية حديثة. سنساعدك في تجهيز وترجمة جميع المستندات المطلوبة.",
+            faq_q2: "كم تكلفة الدراسة في روسيا؟",
+            faq_a2: "تختلف تكاليف الدراسة حسب التخصص والجامعة، وتتراوح عادةً بين 2000-8000 دولار سنوياً. نقدم لك استشارة مجانية لمعرفة التكاليف التفصيلية حسب اختيارك.",
+            faq_q3: "هل هناك منح دراسية متاحة؟",
+            faq_a3: "نعم، تقدم روسيا منحاً دراسية للطلاب المتميزين. نساعدك في التقديم على المنح المتاحة وتجهيز متطلباتها.",
+            faq_q4: "هل يجب أن أتعلم اللغة الروسية قبل الدراسة؟",
+            faq_a4: "ليس بالضرورة. يمكنك دراسة السنة التحضيرية لتعلم اللغة الروسية قبل بدء برنامجك الأكاديمي. كما تتوفر بعض البرامج باللغة الإنجليزية.",
+            faq_q5: "كيف يمكنني الحصول على تأشيرة الدراسة؟",
+            faq_a5: "بعد قبولك في الجامعة، سنساعدك في إجراءات التأشيرة خطوة بخطوة، بدءاً من إصدار الدعوة الدراسية وحتى استلام التأشيرة من السفارة.",
+            
+            // الفوتر
+            footer_description: "خدمات تعليمية وسياحية في روسيا",
+            quick_links: "روابط سريعة",
+            our_services: "خدماتنا",
+            contact: "اتصل بنا",
+            follow_us: "تواصل معنا",
         },
         en: {
             // Main Menu
@@ -335,6 +357,28 @@ document.addEventListener('DOMContentLoaded', function() {
             
             insurance_cta_text: "Get comprehensive insurance coverage for your academic journey",
             insurance_cta_button: "Contact us for insurance",
+            
+            // FAQ Section
+            faq_subtitle: "Frequently Asked Questions",
+            faq_title: "Everything You Need to Know About Studying in Russia",
+            faq_description: "Answers to the most important questions you might have about studying in Russia",
+            faq_q1: "What documents are required to study in Russia?",
+            faq_a1: "The main required documents are: valid passport, translated and certified high school certificate, health certificate, and recent photos. We will assist you in preparing and translating all required documents.",
+            faq_q2: "How much does studying in Russia cost?",
+            faq_a2: "Study costs vary by specialization and university, typically ranging from $2,000-$8,000 annually. We provide free consultation to know detailed costs based on your choice.",
+            faq_q3: "Are there scholarships available?",
+            faq_a3: "Yes, Russia offers scholarships for outstanding students. We help you apply for available scholarships and prepare requirements.",
+            faq_q4: "Do I need to learn Russian before studying?",
+            faq_a4: "Not necessarily. You can study a preparatory year to learn Russian before starting your academic program. Some programs are also available in English.",
+            faq_q5: "How can I get a student visa?",
+            faq_a5: "After university acceptance, we'll help you with visa procedures step by step, from issuing the study invitation to receiving the visa from the embassy.",
+            
+            // Footer
+            footer_description: "Educational and Tourism Services in Russia",
+            quick_links: "Quick Links",
+            our_services: "Our Services",
+            contact: "Contact Us",
+            follow_us: "Follow Us",
         },
         ru: {
             // Главное меню
@@ -467,6 +511,28 @@ document.addEventListener('DOMContentLoaded', function() {
             
             insurance_cta_text: "Получите комплексное страховое покрытие для вашего обучения",
             insurance_cta_button: "Свяжитесь с нами для страхования",
+            
+            // FAQ Section
+            faq_subtitle: "Часто Задаваемые Вопросы",
+            faq_title: "Всё, что нужно знать об обучении в России",
+            faq_description: "Ответы на самые важные вопросы об обучении в России",
+            faq_q1: "Какие документы требуются для обучения в России?",
+            faq_a1: "Основные необходимые документы: действующий паспорт, переведенный и заверенный аттестат о среднем образовании, медицинская справка и недавние фотографии. Мы поможем вам подготовить и перевести все необходимые документы.",
+            faq_q2: "Сколько стоит обучение в России?",
+            faq_a2: "Стоимость обучения варьируется в зависимости от специализации и университета, обычно от 2000 до 8000 долларов в год. Мы предоставляем бесплатную консультацию для расчета детальных затрат.",
+            faq_q3: "Есть ли доступные стипендии?",
+            faq_a3: "Да, Россия предлагает стипендии для выдающихся студентов. Мы поможем вам подать заявку на доступные стипендии и подготовить требования.",
+            faq_q4: "Нужно ли учить русский язык перед началом обучения?",
+            faq_a4: "Не обязательно. Вы можете пройти подготовительный год для изучения русского языка перед началом академической программы. Некоторые программы также доступны на английском языке.",
+            faq_q5: "Как получить студенческую визу?",
+            faq_a5: "После поступления в университет мы поможем вам с процедурой получения визы, начиная с оформления учебного приглашения и заканчивая получением визы в посольстве.",
+            
+            // Footer
+            footer_description: "Образовательные и Туристические Услуги в России",
+            quick_links: "Быстрые Ссылки",
+            our_services: "Наши Услуги",
+            contact: "Связаться с Нами",
+            follow_us: "Подписывайтесь на Нас",
         }
     };
 
@@ -885,6 +951,28 @@ const translations = {
         
         insurance_cta_text: "احصل على تغطية تأمينية شاملة لرحلتك الدراسية",
         insurance_cta_button: "تواصل معنا للحصول على التأمين",
+        
+        // الأسئلة الشائعة
+        faq_subtitle: "الأسئلة الشائعة",
+        faq_title: "كل ما تريد معرفته عن الدراسة في روسيا",
+        faq_description: "إجابات على أهم الأسئلة التي قد تخطر ببالك حول الدراسة في روسيا",
+        faq_q1: "ما هي المستندات المطلوبة للدراسة في روسيا؟",
+        faq_a1: "المستندات الأساسية المطلوبة هي: جواز السفر ساري المفعول، الشهادة الثانوية مترجمة ومصدقة، شهادة خلو من الأمراض المعدية، وصور شخصية حديثة. سنساعدك في تجهيز وترجمة جميع المستندات المطلوبة.",
+        faq_q2: "كم تكلفة الدراسة في روسيا؟",
+        faq_a2: "تختلف تكاليف الدراسة حسب التخصص والجامعة، وتتراوح عادةً بين 2000-8000 دولار سنوياً. نقدم لك استشارة مجانية لمعرفة التكاليف التفصيلية حسب اختيارك.",
+        faq_q3: "هل هناك منح دراسية متاحة؟",
+        faq_a3: "نعم، تقدم روسيا منحاً دراسية للطلاب المتميزين. نساعدك في التقديم على المنح المتاحة وتجهيز متطلباتها.",
+        faq_q4: "هل يجب أن أتعلم اللغة الروسية قبل الدراسة؟",
+        faq_a4: "ليس بالضرورة. يمكنك دراسة السنة التحضيرية لتعلم اللغة الروسية قبل بدء برنامجك الأكاديمي. كما تتوفر بعض البرامج باللغة الإنجليزية.",
+        faq_q5: "كيف يمكنني الحصول على تأشيرة الدراسة؟",
+        faq_a5: "بعد قبولك في الجامعة، سنساعدك في إجراءات التأشيرة خطوة بخطوة، بدءاً من إصدار الدعوة الدراسية وحتى استلام التأشيرة من السفارة.",
+        
+        // الفوتر
+        footer_description: "خدمات تعليمية وسياحية في روسيا",
+        quick_links: "روابط سريعة",
+        our_services: "خدماتنا",
+        contact: "اتصل بنا",
+        follow_us: "تواصل معنا",
     },
     en: {
         services_subtitle: "Our Premium Services",
@@ -993,6 +1081,28 @@ const translations = {
         
         insurance_cta_text: "Get comprehensive insurance coverage for your academic journey",
         insurance_cta_button: "Contact us for insurance",
+        
+        // FAQ Section
+        faq_subtitle: "Frequently Asked Questions",
+        faq_title: "Everything You Need to Know About Studying in Russia",
+        faq_description: "Answers to the most important questions you might have about studying in Russia",
+        faq_q1: "What documents are required to study in Russia?",
+        faq_a1: "The main required documents are: valid passport, translated and certified high school certificate, health certificate, and recent photos. We will assist you in preparing and translating all required documents.",
+        faq_q2: "How much does studying in Russia cost?",
+        faq_a2: "Study costs vary by specialization and university, typically ranging from $2,000-$8,000 annually. We provide free consultation to know detailed costs based on your choice.",
+        faq_q3: "Are there scholarships available?",
+        faq_a3: "Yes, Russia offers scholarships for outstanding students. We help you apply for available scholarships and prepare requirements.",
+        faq_q4: "Do I need to learn Russian before studying?",
+        faq_a4: "Not necessarily. You can study a preparatory year to learn Russian before starting your academic program. Some programs are also available in English.",
+        faq_q5: "How can I get a student visa?",
+        faq_a5: "After university acceptance, we'll help you with visa procedures step by step, from issuing the study invitation to receiving the visa from the embassy.",
+        
+        // Footer
+        footer_description: "Educational and Tourism Services in Russia",
+        quick_links: "Quick Links",
+        our_services: "Our Services",
+        contact: "Contact Us",
+        follow_us: "Follow Us",
     },
     ru: {
         services_subtitle: "Наши Премиум Услуги",
@@ -1101,6 +1211,28 @@ const translations = {
         
         insurance_cta_text: "Получите комплексное страховое покрытие для вашего обучения",
         insurance_cta_button: "Свяжитесь с нами для страхования",
+        
+        // FAQ Section
+        faq_subtitle: "Часто Задаваемые Вопросы",
+        faq_title: "Всё, что нужно знать об обучении в России",
+        faq_description: "Ответы на самые важные вопросы об обучении в России",
+        faq_q1: "Какие документы требуются для обучения в России?",
+        faq_a1: "Основные необходимые документы: действующий паспорт, переведенный и заверенный аттестат о среднем образовании, медицинская справка и недавние фотографии. Мы поможем вам подготовить и перевести все необходимые документы.",
+        faq_q2: "Сколько стоит обучение в России?",
+        faq_a2: "Стоимость обучения варьируется в зависимости от специализации и университета, обычно от 2000 до 8000 долларов в год. Мы предоставляем бесплатную консультацию для расчета детальных затрат.",
+        faq_q3: "Есть ли доступные стипендии?",
+        faq_a3: "Да, Россия предлагает стипендии для выдающихся студентов. Мы поможем вам подать заявку на доступные стипендии и подготовить требования.",
+        faq_q4: "Нужно ли учить русский язык перед началом обучения?",
+        faq_a4: "Не обязательно. Вы можете пройти подготовительный год для изучения русского языка перед началом академической программы. Некоторые программы также доступны на английском языке.",
+        faq_q5: "Как получить студенческую визу?",
+        faq_a5: "После поступления в университет мы поможем вам с процедурой получения визы, начиная с оформления учебного приглашения и заканчивая получением визы в посольстве.",
+        
+        // Footer
+        footer_description: "Образовательные и Туристические Услуги в России",
+        quick_links: "Быстрые Ссылки",
+        our_services: "Наши Услуги",
+        contact: "Связаться с Нами",
+        follow_us: "Подписывайтесь на Нас",
     }
 };
 
