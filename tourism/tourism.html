@@ -83,39 +83,40 @@
         </div>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 hero-content" data-aos="fade-right">
-                    <div class="hero-badge" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 hero-content">
+                    <div class="hero-badge">
                         <i class="fas fa-plane"></i>
-                        <span data-translate="discover_russia">اكتشف روسيا</span>
+                        <span data-translate="hero_badge">اكتشف روسيا</span>
                     </div>
-                    <h1 class="mb-4 hero-title" data-translate="tourism_title" data-aos="fade-up" data-aos-delay="400">
-                        رحلة لا تُنسى في روسيا
+                    <h1 class="hero-title">
+                        <span data-translate="hero_title">رحلة استثنائية في</span>
+                        <span class="highlight" data-translate="hero_title_highlight">روسيا الساحرة</span>
                     </h1>
-                    <p class="mb-4 hero-description" data-translate="tourism_description" data-aos="fade-up" data-aos-delay="600">
-                        استكشف جمال روسيا الساحر، من القصور التاريخية إلى المناظر الطبيعية الخلابة
+                    <p class="hero-subtitle" data-translate="hero_subtitle">
+                        استكشف جمال روسيا الخلاب، من القصور التاريخية العريقة إلى المناظر الطبيعية الخلابة والثقافة الغنية
                     </p>
-                    <div class="hero-stats" data-aos="fade-up" data-aos-delay="800">
-                        <div class="stat-item">
-                            <h3>1000+</h3>
-                            <p data-translate="destinations">وجهة سياحية</p>
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <i class="fas fa-landmark"></i>
+                            <span data-translate="historic_palaces">قصور تاريخية</span>
                         </div>
-                        <div class="stat-item">
-                            <h3>100K+</h3>
-                            <p data-translate="tourists">سائح سنوياً</p>
+                        <div class="feature-item">
+                            <i class="fas fa-snowflake"></i>
+                            <span data-translate="winter_views">مناظر شتوية</span>
                         </div>
-                        <div class="stat-item">
-                            <h3>50+</h3>
-                            <p data-translate="tours">رحلة منظمة</p>
+                        <div class="feature-item">
+                            <i class="fas fa-theater-masks"></i>
+                            <span data-translate="russian_culture">ثقافة روسية</span>
                         </div>
                     </div>
-                    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="1000">
-                        <a href="#destinations" class="btn btn-primary btn-glow me-3 mb-3" data-translate="explore_now">
-                            <span>استكشف الآن</span>
+                    <div class="hero-buttons">
+                        <a href="#destinations" class="hero-btn hero-btn-primary">
                             <i class="fas fa-compass"></i>
+                            <span data-translate="explore_destinations">استكشف الوجهات</span>
                         </a>
-                        <a href="#book" class="btn btn-outline-light btn-hover-fill mb-3" data-translate="book_trip">
-                            <span>احجز رحلتك</span>
+                        <a href="#book" class="hero-btn hero-btn-secondary">
                             <i class="fas fa-ticket-alt"></i>
+                            <span data-translate="book_your_trip">احجز رحلتك</span>
                         </a>
                     </div>
                 </div>
@@ -138,40 +139,86 @@
     <!-- الوجهات السياحية -->
     <section class="destinations-section py-5">
         <div class="container">
-            <div class="section-header text-center mb-5" data-aos="fade-up">
+            <div class="section-header text-center mb-5">
                 <span class="section-badge" data-translate="popular_destinations">وجهات سياحية شهيرة</span>
                 <h2 class="section-title" data-translate="discover_places">اكتشف أجمل الأماكن في روسيا</h2>
-                <p class="section-subtitle" data-translate="destinations_description">تعرف على أشهر المعالم السياحية والوجهات الساحرة في روسيا</p>
+                <p class="section-subtitle" data-translate="destinations_description">تعرف على المعالم الشهيرة والأماكن الساحرة في روسيا</p>
             </div>
 
             <div class="row g-4">
                 <!-- موسكو -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6">
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="https://images.unsplash.com/photo-1596484552834-6a58f850e0a1" alt="موسكو">
+                            <img src="https://images.unsplash.com/photo-1596484552834-6a58f850e0a1" alt="موسكو" class="img-fluid">
                             <div class="destination-overlay">
-                                <div class="destination-meta">
-                                    <span class="meta-item">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <span data-translate="moscow">موسكو</span>
-                                    </span>
-                                    <span class="meta-rating">
-                                        <i class="fas fa-star"></i>
-                                        4.9
-                                    </span>
-                                </div>
+                                <span class="city-name" data-translate="moscow">موسكو</span>
+                                <div class="weather">-5°C</div>
                             </div>
+                            <div class="destination-badge">الأكثر زيارة</div>
                         </div>
                         <div class="destination-content">
                             <h3 data-translate="moscow">موسكو</h3>
-                            <p data-translate="moscow_description">عاصمة روسيا النابضة بالحياة والتاريخ</p>
+                            <p class="mb-4" data-translate="moscow_description">عاصمة روسيا النابضة بالحياة والتاريخ</p>
+                            
                             <div class="destination-features">
-                                <span><i class="fas fa-monument"></i> <span data-translate="landmarks">معلم سياحي</span> 50+</span>
-                                <span><i class="fas fa-utensils"></i> <span data-translate="restaurants">مطعم</span> 200+</span>
-                                <span><i class="fas fa-hotel"></i> <span data-translate="hotels">فندق</span> 300+</span>
+                                <div class="feature">
+                                    <i class="fas fa-monument"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="landmarks">معلم سياحي</span>
+                                        <strong>50+</strong>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-utensils"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="restaurants">مطعم</span>
+                                        <strong>200+</strong>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-hotel"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="hotels">فندق</span>
+                                        <strong>300+</strong>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="#" class="btn-explore" data-translate="explore_destination">
+
+                            <div class="destination-highlights mt-4">
+                                <h4 data-translate="main_attractions">أبرز المعالم</h4>
+                                <ul class="highlights-list">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="red_square">الساحة الحمراء</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="kremlin">الكرملين</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="st_basil">كاتدرائية القديس باسيل</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="destination-info mt-4">
+                                <div class="info-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span data-translate="best_time">أفضل وقت للزيارة: مايو-سبتمبر</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-language"></i>
+                                    <span data-translate="language">اللغة: الروسية</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                    <span data-translate="currency">العملة: الروبل الروسي</span>
+                                </div>
+                            </div>
+
+                            <a href="#moscow-details" class="btn-explore mt-4" data-translate="explore_destination">
                                 <span>استكشف الوجهة</span>
                                 <i class="fas fa-arrow-right"></i>
                             </a>
@@ -180,32 +227,78 @@
                 </div>
 
                 <!-- سانت بطرسبرغ -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6">
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="https://images.unsplash.com/photo-1556610961-2fecc5927173" alt="سانت بطرسبرغ">
+                            <img src="https://images.unsplash.com/photo-1556610961-2fecc5927173" alt="سانت بطرسبرغ" class="img-fluid">
                             <div class="destination-overlay">
-                                <div class="destination-meta">
-                                    <span class="meta-item">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <span data-translate="saint_petersburg">سانت بطرسبرغ</span>
-                                    </span>
-                                    <span class="meta-rating">
-                                        <i class="fas fa-star"></i>
-                                        4.8
-                                    </span>
-                                </div>
+                                <span class="city-name" data-translate="saint_petersburg">سانت بطرسبرغ</span>
+                                <div class="weather">-3°C</div>
                             </div>
+                            <div class="destination-badge">الأكثر جمالاً</div>
                         </div>
                         <div class="destination-content">
                             <h3 data-translate="saint_petersburg">سانت بطرسبرغ</h3>
-                            <p data-translate="petersburg_description">مدينة القصور والفن والثقافة</p>
+                            <p class="mb-4" data-translate="petersburg_description">مدينة القصور والفن والثقافة</p>
+                            
                             <div class="destination-features">
-                                <span><i class="fas fa-monument"></i> <span data-translate="landmarks">معلم سياحي</span> 40+</span>
-                                <span><i class="fas fa-utensils"></i> <span data-translate="restaurants">مطعم</span> 150+</span>
-                                <span><i class="fas fa-hotel"></i> <span data-translate="hotels">فندق</span> 200+</span>
+                                <div class="feature">
+                                    <i class="fas fa-monument"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="landmarks">معلم سياحي</span>
+                                        <strong>40+</strong>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-utensils"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="restaurants">مطعم</span>
+                                        <strong>150+</strong>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-hotel"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="hotels">فندق</span>
+                                        <strong>200+</strong>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="#" class="btn-explore" data-translate="explore_destination">
+
+                            <div class="destination-highlights mt-4">
+                                <h4 data-translate="main_attractions">أبرز المعالم</h4>
+                                <ul class="highlights-list">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="hermitage">متحف الإرميتاج</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="peterhof">قصر بيترهوف</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="church_spilled_blood">كنيسة الدم المسفوك</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="destination-info mt-4">
+                                <div class="info-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span data-translate="best_time_spb">أفضل وقت للزيارة: يونيو-أغسطس</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-sun"></i>
+                                    <span data-translate="white_nights">الليالي البيضاء: مايو-يوليو</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-train"></i>
+                                    <span data-translate="moscow_distance">4 ساعات من موسكو بالقطار</span>
+                                </div>
+                            </div>
+
+                            <a href="#spb-details" class="btn-explore mt-4" data-translate="explore_destination">
                                 <span>استكشف الوجهة</span>
                                 <i class="fas fa-arrow-right"></i>
                             </a>
@@ -214,32 +307,78 @@
                 </div>
 
                 <!-- سوتشي -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6">
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="https://enabbaladinet.s3.eu-central-1.amazonaws.com/arabic/wp-content/uploads/2017/11/suchi.gif" alt="سوتشي - منتجع البحر الأسود">
+                            <img src="https://enabbaladinet.s3.eu-central-1.amazonaws.com/arabic/wp-content/uploads/2017/11/suchi.gif" alt="سوتشي" class="img-fluid">
                             <div class="destination-overlay">
-                                <div class="destination-meta">
-                                    <span class="meta-item">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <span data-translate="sochi">سوتشي</span>
-                                    </span>
-                                    <span class="meta-rating">
-                                        <i class="fas fa-star"></i>
-                                        4.7
-                                    </span>
-                                </div>
+                                <span class="city-name" data-translate="sochi">سوتشي</span>
+                                <div class="weather">15°C</div>
                             </div>
+                            <div class="destination-badge">الأفضل للعائلات</div>
                         </div>
                         <div class="destination-content">
                             <h3 data-translate="sochi">سوتشي</h3>
-                            <p data-translate="sochi_description">مدينة ساحلية جميلة على البحر الأسود</p>
+                            <p class="mb-4" data-translate="sochi_description">مدينة ساحلية جميلة على البحر الأسود</p>
+                            
                             <div class="destination-features">
-                                <span><i class="fas fa-monument"></i> <span data-translate="landmarks">معلم سياحي</span> 30+</span>
-                                <span><i class="fas fa-utensils"></i> <span data-translate="restaurants">مطعم</span> 100+</span>
-                                <span><i class="fas fa-hotel"></i> <span data-translate="hotels">فندق</span> 150+</span>
+                                <div class="feature">
+                                    <i class="fas fa-monument"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="landmarks">معلم سياحي</span>
+                                        <strong>30+</strong>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-umbrella-beach"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="beaches">شاطئ</span>
+                                        <strong>20+</strong>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-skiing"></i>
+                                    <div class="feature-text">
+                                        <span data-translate="ski_resorts">منتجع تزلج</span>
+                                        <strong>5+</strong>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="#" class="btn-explore" data-translate="explore_destination">
+
+                            <div class="destination-highlights mt-4">
+                                <h4 data-translate="main_attractions">أبرز المعالم</h4>
+                                <ul class="highlights-list">
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="rosa_khutor">منتجع روزا خوتور</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="olympic_park">الحديقة الأولمبية</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <span data-translate="dendrarium">حديقة دندراريوم النباتية</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="destination-info mt-4">
+                                <div class="info-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span data-translate="best_time_sochi">صيف للشواطئ، شتاء للتزلج</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-temperature-high"></i>
+                                    <span data-translate="climate">مناخ معتدل على مدار السنة</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-plane"></i>
+                                    <span data-translate="moscow_flight">ساعتان طيران من موسكو</span>
+                                </div>
+                            </div>
+
+                            <a href="#sochi-details" class="btn-explore mt-4" data-translate="explore_destination">
                                 <span>استكشف الوجهة</span>
                                 <i class="fas fa-arrow-right"></i>
                             </a>
@@ -248,10 +387,10 @@
                 </div>
             </div>
 
-            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
+            <div class="text-center mt-5">
                 <a href="#all-destinations" class="btn btn-outline-primary btn-lg btn-view-all" data-translate="view_all_destinations">
                     <span>عرض جميع الوجهات</span>
-                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
         </div>
@@ -260,98 +399,139 @@
     <!-- قسم عروض سوتشي -->
     <section class="offers-section" id="sochi-offers">
         <div class="container">
-            <div class="section-header text-center mb-5" data-aos="fade-up">
+            <div class="section-header text-center mb-5">
+                <span class="section-badge" data-translate="special_offers">عروض خاصة</span>
                 <h2 class="section-title" data-translate="sochi_offers">عروض سوتشي المميزة</h2>
                 <p class="section-subtitle" data-translate="sochi_offers_subtitle">اكتشف أفضل العروض السياحية في سوتشي</p>
             </div>
 
-            <div class="row">
-                <!-- باقة الصيف -->
+            <div class="row g-4">
+                <!-- عرض الشتاء -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="offer-card" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); background-size: cover;">
-                        <div class="offer-header">
-                            <div class="offer-icon">
-                                <i class="fas fa-sun fa-2x"></i>
+                    <div class="tourism-offer-card winter-offer">
+                        <div class="offer-image">
+                            <img src="https://images.unsplash.com/photo-1517825738774-7de3e6054716" alt="التزلج في سوتشي" class="img-fluid">
+                            <div class="offer-badge" data-translate="winter_special">عرض الشتاء</div>
+                            <div class="offer-duration">
+                                <i class="far fa-calendar-alt"></i>
+                                <span data-translate="winter_duration">ديسمبر - فبراير</span>
                             </div>
-                            <h3 data-translate="summer_package">باقة الصيف</h3>
-                            <p data-translate="summer_package_desc">7 أيام على شاطئ البحر الأسود</p>
-                            <div class="offer-price" data-translate="summer_package_price">من 500 دولار</div>
                         </div>
-                        <div class="offer-body">
-                            <div class="package-includes">
-                                <h4 data-translate="package_includes">تشمل الباقة</h4>
-                                <div class="includes-list">
-                                    <span class="feature-item"><i class="fas fa-plane"></i> <span data-translate="flight_included">تذاكر الطيران</span></span>
-                                    <span class="feature-item"><i class="fas fa-hotel"></i> <span data-translate="hotel_included">إقامة فندقية</span></span>
-                                    <span class="feature-item"><i class="fas fa-car"></i> <span data-translate="transport_included">المواصلات</span></span>
-                                    <span class="feature-item"><i class="fas fa-umbrella-beach"></i> <span data-translate="activities_included">الأنشطة السياحية</span></span>
-                                </div>
+                        <div class="offer-content">
+                            <h3 data-translate="ski_adventure">مغامرة التزلج</h3>
+                            <div class="offer-price">
+                                <span class="price" data-translate="winter_price">500$</span>
+                                <span class="duration" data-translate="per_person">/للشخص</span>
                             </div>
-                            <a href="#" class="btn-book" data-translate="book_now">
-                                <span class="btn-text">احجز الآن</span>
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
+                            <ul class="offer-features">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="ski_equipment">معدات التزلج كاملة</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="ski_instructor">مدرب تزلج محترف</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="mountain_resort">إقامة في منتجع جبلي</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="hot_drinks">مشروبات ساخنة مجانية</span>
+                                </li>
+                            </ul>
+                            <a href="#book-winter" class="btn-book" data-translate="book_now">احجز الآن</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- باقة الشتاء -->
+                <!-- عرض الصيف -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="offer-card" style="background-image: url('https://images.unsplash.com/photo-1551524164-687a55dd1126'); background-size: cover;">
-                        <div class="offer-header">
-                            <div class="offer-icon">
-                                <i class="fas fa-snowflake fa-2x"></i>
+                    <div class="tourism-offer-card summer-offer">
+                        <div class="offer-image">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="شواطئ سوتشي" class="img-fluid">
+                            <div class="offer-badge" data-translate="summer_special">عرض الصيف</div>
+                            <div class="offer-duration">
+                                <i class="far fa-calendar-alt"></i>
+                                <span data-translate="summer_duration">يونيو - أغسطس</span>
                             </div>
-                            <h3 data-translate="winter_package">باقة الشتاء</h3>
-                            <p data-translate="winter_package_desc">5 أيام في منتجعات التزلج</p>
-                            <div class="offer-price" data-translate="winter_package_price">من 600 دولار</div>
                         </div>
-                        <div class="offer-body">
-                            <div class="package-includes">
-                                <h4 data-translate="package_includes">تشمل الباقة</h4>
-                                <div class="includes-list">
-                                    <span class="feature-item"><i class="fas fa-plane"></i> <span data-translate="flight_included">تذاكر الطيران</span></span>
-                                    <span class="feature-item"><i class="fas fa-hotel"></i> <span data-translate="hotel_included">إقامة فندقية</span></span>
-                                    <span class="feature-item"><i class="fas fa-car"></i> <span data-translate="transport_included">المواصلات</span></span>
-                                    <span class="feature-item"><i class="fas fa-skiing"></i> <span data-translate="activities_included">الأنشطة السياحية</span></span>
-                                </div>
+                        <div class="offer-content">
+                            <h3 data-translate="beach_vacation">عطلة شاطئية</h3>
+                            <div class="offer-price">
+                                <span class="price" data-translate="summer_price">600$</span>
+                                <span class="duration" data-translate="per_person">/للشخص</span>
                             </div>
-                            <a href="#" class="btn-book" data-translate="book_now">
-                                <span class="btn-text">احجز الآن</span>
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
+                            <ul class="offer-features">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="beach_access">دخول للشواطئ الخاصة</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="water_sports">رياضات مائية</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="seaside_hotel">فندق مطل على البحر</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="beach_activities">أنشطة شاطئية</span>
+                                </li>
+                            </ul>
+                            <a href="#book-summer" class="btn-book" data-translate="book_now">احجز الآن</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- باقة العائلة -->
+                <!-- عرض المغامرات -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="offer-card" style="background-image: url('https://4.imimg.com/data4/II/II/GLADMIN-/img-col-2-blog-2-col3-500x500.jpg'); background-size: cover;">
-                        <div class="offer-header">
-                            <div class="offer-icon">
-                                <i class="fas fa-users fa-2x"></i>
+                    <div class="tourism-offer-card adventure-offer">
+                        <div class="offer-image">
+                            <img src="https://images.unsplash.com/photo-1533130061792-64b345e4a833" alt="مغامرات سوتشي" class="img-fluid">
+                            <div class="offer-badge" data-translate="adventure_special">عرض المغامرات</div>
+                            <div class="offer-duration">
+                                <i class="far fa-calendar-alt"></i>
+                                <span data-translate="adventure_duration">طوال العام</span>
                             </div>
-                            <h3 data-translate="family_package">باقة العائلة</h3>
-                            <p data-translate="family_package_desc">رحلة عائلية لمدة 10 أيام</p>
-                            <div class="offer-price" data-translate="family_package_price">من 1200 دولار</div>
                         </div>
-                        <div class="offer-body">
-                            <div class="package-includes">
-                                <h4 data-translate="package_includes">تشمل الباقة</h4>
-                                <div class="includes-list">
-                                    <span class="feature-item"><i class="fas fa-plane"></i> <span data-translate="flight_included">تذاكر الطيران</span></span>
-                                    <span class="feature-item"><i class="fas fa-hotel"></i> <span data-translate="hotel_included">إقامة فندقية</span></span>
-                                    <span class="feature-item"><i class="fas fa-car"></i> <span data-translate="transport_included">المواصلات</span></span>
-                                    <span class="feature-item"><i class="fas fa-ticket-alt"></i> <span data-translate="activities_included">الأنشطة السياحية</span></span>
-                                </div>
+                        <div class="offer-content">
+                            <h3 data-translate="adventure_package">باقة المغامرات</h3>
+                            <div class="offer-price">
+                                <span class="price" data-translate="adventure_price">700$</span>
+                                <span class="duration" data-translate="per_person">/للشخص</span>
                             </div>
-                            <a href="#" class="btn-book" data-translate="book_now">
-                                <span class="btn-text">احجز الآن</span>
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
+                            <ul class="offer-features">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="hiking">رحلات المشي لمسافات طويلة</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="camping">تخييم في الطبيعة</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="rafting">تجديف في الأنهار</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span data-translate="photography">جولات تصوير</span>
+                                </li>
+                            </ul>
+                            <a href="#book-adventure" class="btn-book" data-translate="book_now">احجز الآن</a>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="#all-offers" class="btn btn-outline-primary btn-lg" data-translate="view_all_offers">
+                    <span>عرض جميع العروض</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -359,34 +539,52 @@
     <!-- الخدمات السياحية -->
     <section class="tourism-services py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-5" data-translate="tourism_services">خدماتنا السياحية</h2>
-            <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="service-box">
-                        <i class="fas fa-hotel"></i>
-                        <h4 data-translate="accommodation">الإقامة</h4>
-                        <p data-translate="accommodation_text">حجوزات فندقية في أفضل الفنادق الروسية</p>
+            <div class="section-header text-center mb-5">
+                <span class="section-badge" data-translate="premium_services_badge">خدمات متميزة</span>
+                <h2 class="section-title" data-translate="premium_services">خدماتنا المتميزة</h2>
+                <p class="section-subtitle" data-translate="premium_services_subtitle">نقدم لكم مجموعة من الخدمات عالية الجودة</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3 class="service-title" data-translate="accommodation_service">خدمات الإقامة</h3>
+                        <p class="service-description" data-translate="accommodation_description">حجز فنادق فاخرة وشقق مفروشة في أفضل المواقع</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> <span data-translate="luxury_hotels">فنادق 5 نجوم</span></li>
+                            <li><i class="fas fa-check"></i> <span data-translate="furnished_apartments">شقق مفروشة راقية</span></li>
+                            <li><i class="fas fa-check"></i> <span data-translate="best_locations">مواقع متميزة</span></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="service-box">
-                        <i class="fas fa-plane"></i>
-                        <h4 data-translate="flight_tickets">تذاكر الطيران</h4>
-                        <p data-translate="flight_tickets_text">حجز تذاكر الطيران مع أفضل شركات الطيران</p>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <h3 class="service-title" data-translate="flight_service">حجز الطيران</h3>
+                        <p class="service-description" data-translate="flight_description">حجز تذاكر طيران على جميع شركات الطيران العالمية</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> <span data-translate="best_prices">أفضل الأسعار</span></li>
+                            <li><i class="fas fa-check"></i> <span data-translate="multiple_airlines">خيارات متعددة</span></li>
+                            <li><i class="fas fa-check"></i> <span data-translate="flexible_dates">مواعيد مرنة</span></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="service-box">
-                        <i class="fas fa-car"></i>
-                        <h4 data-translate="transportation">المواصلات</h4>
-                        <p data-translate="transportation_text">خدمات النقل والمواصلات داخل روسيا</p>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="service-box">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <h4 data-translate="guided_tours">جولات سياحية</h4>
-                        <p data-translate="guided_tours_text">جولات مع مرشدين سياحيين محترفين</p>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3 class="service-title" data-translate="transport_service">خدمات النقل</h3>
+                        <p class="service-description" data-translate="transport_description">توفير وسائل نقل مريحة وآمنة لجميع رحلاتكم</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> <span data-translate="airport_transfers">توصيل المطار</span></li>
+                            <li><i class="fas fa-check"></i> <span data-translate="city_tours">جولات المدينة</span></li>
+                            <li><i class="fas fa-check"></i> <span data-translate="private_drivers">سائق خاص</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -396,22 +594,73 @@
     <!-- العروض الخاصة -->
     <section class="special-offers py-5">
         <div class="container">
-            <h2 class="text-center mb-5" data-translate="special_offers">عروضنا المميزة</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="offer-card">
-                        <h3 data-translate="family_offer">عرض العائلة</h3>
-                        <p data-translate="family_offer_text">رحلة لمدة 7 أيام تشمل الإقامة والمواصلات</p>
-                        <div class="price" data-translate="price_starting_from">ابتداءً من $999</div>
-                        <button class="btn btn-primary" data-translate="book_now">احجز الآن</button>
+            <div class="section-header text-center mb-5">
+                <span class="section-badge" data-translate="special_offers_badge">عروض حصرية</span>
+                <h2 class="section-title" data-translate="special_offers">عروضنا المميزة</h2>
+                <p class="section-subtitle" data-translate="special_offers_subtitle">اكتشف باقات سفر متكاملة بأسعار تنافسية</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="tourism-offer-card">
+                        <div class="offer-image">
+                            <img src="https://images.unsplash.com/photo-1549918864-48ac978761a4" alt="رحلة موسكو الشاملة" class="img-fluid">
+                        </div>
+                        <div class="offer-content">
+                            <div class="offer-badge" data-translate="moscow_package">باقة موسكو</div>
+                            <h3 class="offer-title" data-translate="moscow_package_title">رحلة موسكو الشاملة</h3>
+                            <ul class="offer-features">
+                                <li><i class="fas fa-check"></i> <span data-translate="hotel_5_stars">فندق 5 نجوم لمدة 7 ليالي</span></li>
+                                <li><i class="fas fa-check"></i> <span data-translate="guided_tours_included">جولات سياحية مع مرشد</span></li>
+                                <li><i class="fas fa-check"></i> <span data-translate="transfers_included">خدمة التوصيل من وإلى المطار</span></li>
+                            </ul>
+                            <div class="offer-price" data-translate="moscow_price">$1,499</div>
+                            <a href="#book-moscow" class="book-button">
+                                <span data-translate="book_now">احجز الآن</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <div class="offer-card">
-                        <h3 data-translate="honeymoon_offer">عرض شهر العسل</h3>
-                        <p data-translate="honeymoon_offer_text">باقة رومانسية خاصة لمدة 5 أيام</p>
-                        <div class="price" data-translate="price_starting_from">ابتداءً من $799</div>
-                        <button class="btn btn-primary" data-translate="book_now">احجز الآن</button>
+                <div class="col-lg-4 col-md-6">
+                    <div class="tourism-offer-card">
+                        <div class="offer-image">
+                            <img src="https://images.unsplash.com/photo-1556610961-2fecc5927173" alt="رحلة سانت بطرسبرغ" class="img-fluid">
+                        </div>
+                        <div class="offer-content">
+                            <div class="offer-badge" data-translate="petersburg_package">باقة سانت بطرسبرغ</div>
+                            <h3 class="offer-title" data-translate="petersburg_package_title">سحر سانت بطرسبرغ</h3>
+                            <ul class="offer-features">
+                                <li><i class="fas fa-check"></i> <span data-translate="hotel_4_stars">فندق 4 نجوم لمدة 5 ليالي</span></li>
+                                <li><i class="fas fa-check"></i> <span data-translate="museum_tickets">تذاكر المتاحف الشهيرة</span></li>
+                                <li><i class="fas fa-check"></i> <span data-translate="river_cruise">رحلة بحرية في نهر نيفا</span></li>
+                            </ul>
+                            <div class="offer-price" data-translate="petersburg_price">$1,299</div>
+                            <a href="#book-petersburg" class="book-button">
+                                <span data-translate="book_now">احجز الآن</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="tourism-offer-card">
+                        <div class="offer-image">
+                            <img src="https://images.unsplash.com/photo-1548288242-d454d4648b55" alt="جولة روسيا الشاملة" class="img-fluid">
+                        </div>
+                        <div class="offer-content">
+                            <div class="offer-badge" data-translate="russia_tour_package">الجولة الشاملة</div>
+                            <h3 class="offer-title" data-translate="russia_tour_title">اكتشف روسيا</h3>
+                            <ul class="offer-features">
+                                <li><i class="fas fa-check"></i> <span data-translate="three_cities">زيارة 3 مدن رئيسية</span></li>
+                                <li><i class="fas fa-check"></i> <span data-translate="all_transfers">جميع التنقلات بين المدن</span></li>
+                                <li><i class="fas fa-check"></i> <span data-translate="full_support">دعم على مدار الساعة</span></li>
+                            </ul>
+                            <div class="offer-price" data-translate="russia_tour_price">$2,499</div>
+                            <a href="#book-russia-tour" class="book-button">
+                                <span data-translate="book_now">احجز الآن</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
